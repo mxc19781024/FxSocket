@@ -1,0 +1,45 @@
+﻿QTreeView
+{
+	color: #e5eef3;
+	background: #232323;
+	border: none;
+}
+
+/*adpte linux tree style begin*/
+QTreeView::branch
+{
+	background: #232323;
+}
+/*adpte linux tree style end*/
+
+QLabel
+{
+	color: #e5eef3; 
+}
+
+QListWidget{border:none;background-color:black;}
+
+#pOkBtn, #pCancelBtn
+{
+	color: #999999;
+	background: transparent;
+}
+
+#pOkBtn:hover, #pCancelBtn:hover
+{
+	color: #ffffff;
+}
+#pOkBtn:pressed, #pCancelBtn:pressed
+{
+	color: #3b7cff;
+}
+	
+#line{border:none;max-height:1px;border-image:url(:/Resources/images/line1.png);}
+#line_3{border:none;max-height:1px;border-image:url(:/Resources/images/line1.png);}
+#line_2{border:none;max-width:1px;border-image:url(:/Resources/images/line11.png);}
+
+/*#pResetTBtn{border-image:url(:/Resources/images/back.png);}*/
+#pResetTBtn{border-image:url(D:/Szy/gitlab/HGxGPAplication/Libs/DataResUtilUi/Resources/images/back.png);}
+
+#pResetTBtn:hover{border-image:url(:/Resources/images/back_hover.png);}
+#pResetTBtn:pressed{border-image:url(:/Resources/images/back_pressed.png);}

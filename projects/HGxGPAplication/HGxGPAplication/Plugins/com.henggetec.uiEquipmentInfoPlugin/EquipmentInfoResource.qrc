@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>resrc/images/buttry.png</file>
+        <file>resrc/images/icon_youliang.png</file>
+        <file>resrc/images/press.png</file>
+        <file>resrc/images/roctet.png</file>
+        <file>resrc/images/tem.png</file>
+        <file>resrc/images/feiji.png</file>
+        <file>resrc/images/xianshikuang.png</file>
+        <file>resrc/images/biaotibeijing.png</file>
+        <file>resrc/images/bg.png</file>
+        <file>resrc/images/beijing.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>resrc/qss/equipment_info.css</file>
+        <file>resrc/qss/radar.xml</file>
+    </qresource>
+</RCC>

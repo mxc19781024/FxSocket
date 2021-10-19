@@ -1,0 +1,117 @@
+QWidget#LoginWidget{
+	border-radius:15px;
+	background-image:url(:/Resource/image/2.png);
+}
+
+QWidget#InPut{
+	background-image:url(:/Resource/image/denglukuangbeiban.png);
+}
+
+QWidget#LoginContext{
+	border-radius:10px;	
+}
+
+QLineEdit{
+	border-style:solid;
+	border-width:1px;
+	border-color:rgba(255,122,50,255);
+	color:rgba(240,240,240,255);
+	font-size:12px;
+	border-radius:3px;
+	background-color:rgba(0,0,0,0);
+}
+
+QLineEdit:hover{
+	border-style:solid;
+	border-width:1px;
+	border-color:rgba(218,89,19,255);
+	color:white;
+	font-size:14px;
+	border-radius:3px;
+	background-color:rgba(192,111,77,100);
+}
+
+QLineEdit:focus{
+	border-style:solid;
+	border-width:1px;
+	border-color:rgba(255,122,50,255);
+	color:rgba(240,240,240,255);
+	font-size:12px;
+	border-radius:3px;
+	background-color:rgba(0,0,0,0);
+}
+
+QPushButton#LoginButton{
+	font-family:"SimSun";
+	font-size:15px;
+	font-weight:bold;
+	color:white;
+	border-radius:5px;
+	background-color:rgba(238,114,47,255);
+}
+
+QPushButton#LoginButton:hover{
+	background-color:rgba(255,98,13,255);
+}
+
+QPushButton#LoginButton:pressed{	
+	background-color:rgba(187,85,0,255);
+}
+
+QPushButton#ExitButton{
+	font-family:"SimSun";
+	font-size:15px;
+	font-weight:bold;
+	color:white;
+	border-radius:5px;
+	background-color:rgba(14,97,185,255);
+}
+
+QPushButton#ExitButton:hover{
+	background-color:rgba(42,135,236,255);
+}
+
+QPushButton#ExitButton:pressed{	
+	background-color:rgba(19,80,145,255);
+}
+
+
+QPushButton#UsrImage{
+	background-color:rgba(0,0,0,255);
+	border:0px solid rgba(102,102,102,255);
+	border-radius:50;
+}
+
+QLabel#Title{
+	font-family:"Microsoft YaHei";
+	font-size:20px;
+	color:white;
+	font-weight:bold;
+}
+
+QLabel#HalvingLine{
+	background-image:url(:/Resource/image/fengexian.png);
+}
+
+QLabel#Logo{
+}
+
+QLabel#ProgerssText{
+	color:rgba(57, 136, 239, 255);
+}
+
+QProgressBar{
+	font:9pt;
+	color:white;
+	border-radius:0px;
+	text-align:center;
+	border:1px solid;
+	background-color:rgb(0, 0, 0, 0);
+	border-color:rgba(57, 136, 239, 255);
+}
+
+QProgressBar:chunk{
+	border-radius:0px;
+	background-color:rgba(70, 255, 253, 255);
+	margin:2px;
+}

@@ -1,0 +1,7 @@
+﻿<html>
+<head/>
+<body>
+<p>FreeXStudio 是一款集GIS服务，二三</p>
+<p>维一体化，多业务场景应用于一体的组</p>
+<p>件化承载平台。</p>
+</body></html>

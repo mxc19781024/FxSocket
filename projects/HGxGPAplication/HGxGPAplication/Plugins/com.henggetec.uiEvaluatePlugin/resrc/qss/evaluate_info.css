@@ -1,0 +1,16 @@
+﻿CEvaluateInfoWidget #Image_Frame{
+	border-image: url(":/img/resrc/images/beijing.png"); 
+}
+
+CEvaluateInfoWidget #label{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+/*
+CAlarmInfoItem #widget
+{
+	border: 1px solid #222222;
+}
+
+*/

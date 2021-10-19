@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <chartType>radar</chartType>
+    <chartBackground margins="1">
+        <background color="#ffff00" show="true"/>
+        <plotArea color="#000000" show="false"/>
+    </chartBackground>
+    <legend>
+        <show>false</show>
+        <align>AlignBottom</align>
+        <icon>rect</icon>
+        <textStyle color="#808080" fontWeight="Normal" fontSize="12" fontFamily="Microsoft YaHei" fontStyle="normal"/>
+    </legend>
+    <title>
+        <show>false</show>
+        <align>AlignTop</align>
+        <mainTitle>
+            <textStyle color="#808080" fontWeight="Bold" fontSize="13" fontFamily="Microsoft YaHei" fontStyle="normal"/>
+        </mainTitle>
+        <subTitle>
+            <textStyle color="#808080" fontWeight="Normal" fontSize="13" fontFamily="songti" fontStyle="normal"/>
+        </subTitle>
+        <lineSpacing>10</lineSpacing>
+    </title>
+    <xAxis>
+        <show>true</show>
+        <axisLine>
+            <show>true</show>
+            <onZero>false</onZero>
+            <lineStyle color="#000000" capStyle="SquareCap" width="1" style="SolidLine"/>
+        </axisLine>
+        <axisTick>
+            <show>true</show>
+            <inside>false</inside>
+            <lineStyle color="#000000" capStyle="SquareCap" width="1" style="SolidLine"/>
+        </axisTick>
+        <splitLine>
+            <show>true</show>
+            <lineStyle color="#000000" capStyle="SquareCap" width="1" style="SolidLine"/>
+        </splitLine>
+        <splitArea alternative="false" alternativeColor="#000000"/>
+        <axisLabel>
+            <show>true</show>
+            <rotate>0</rotate>
+            <textStyle color="#000000" fontWeight="Normal" fontSize="-1" fontFamily="SimSun" fontStyle="normal"/>
+        </axisLabel>
+        <name>
+            <show>false</show>
+            <nameGap>10</nameGap>
+            <textStyle color="#000000" fontWeight="Normal" fontSize="-1" fontFamily="SimSun" fontStyle="normal"/>
+        </name>
+    </xAxis>
+    <xAxis>
+        <show>true</show>
+        <axisLine>
+            <show>true</show>
+            <onZero>false</onZero>
+            <lineStyle color="#000000" capStyle="SquareCap" width="1" style="SolidLine"/>
+        </axisLine>
+        <axisTick>
+            <show>true</show>
+            <inside>false</inside>
+            <lineStyle color="#000000" capStyle="SquareCap" width="1" style="SolidLine"/>
+        </axisTick>
+        <splitLine>
+            <show>true</show>
+            <lineStyle color="#000000" capStyle="SquareCap" width="1" style="SolidLine"/>
+        </splitLine>
+        <splitArea alternative="false" alternativeColor="#000000"/>
+        <axisLabel>
+            <show>true</show>
+            <rotate>0</rotate>
+            <textStyle color="#000000" fontWeight="Normal" fontSize="-1" fontFamily="SimSun" fontStyle="normal"/>
+        </axisLabel>
+        <name>
+            <show>true</show>
+            <nameGap>10</nameGap>
+            <textStyle color="#000000" fontWeight="Normal" fontSize="-1" fontFamily="SimSun" fontStyle="normal"/>
+        </name>
+    </xAxis>
+    <palette>
+        <color>#ff913d</color>
+        <color>#794ae9</color>
+        <color>#e94a65</color>
+        <color>#9fe6b8</color>
+        <color>#ffdb5c</color>
+        <color>#ff9f7f</color>
+        <color>#fb7293</color>
+        <color>#e062ae</color>
+        <color>#e690d1</color>
+        <color>#e7bcf3</color>
+        <color>#9d96f5</color>
+        <color>#8378ea</color>
+    </palette>
+    <radarAxis>
+        <lineStyle color="#dcdcdc" capStyle="FlatCap" width="1" style="SolidLine"/>
+        <tickLine>
+            <show>true</show>
+            <lineStyle color="#b4b4b4" capStyle="FlatCap" width="1" style="SolidLine"/>
+            <type>round</type>
+            <area color="#f0f0f0" alternativeColor="#f6f6f6" alternative="true"/>
+        </tickLine>
+        <vertex show="true" borderColor="#999999" fillColor="#999999" size="7"/>
+        <label>
+            <show>true</show>
+            <textStyle color="#aaaaaa" fontWeight="Normal" fontSize="10" fontFamily="Microsoft YaHei" fontStyle="normal"/>
+        </label>
+        <tickLabel>
+            <show>true</show>
+            <textStyle color="#999999" fontWeight="Normal" fontSize="10" fontFamily="Microsoft YaHei" fontStyle="normal"/>
+        </tickLabel>
+    </radarAxis>
+</root>

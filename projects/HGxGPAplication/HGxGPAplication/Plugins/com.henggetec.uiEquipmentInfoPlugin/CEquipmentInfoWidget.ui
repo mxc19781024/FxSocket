@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CEquipmentInfoWidget</class>
+ <widget class="QWidget" name="CEquipmentInfoWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>242</width>
+    <height>658</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>242</width>
+    <height>658</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>CEquipmentInfoWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*
+{
+    border-image: url(:/img/resrc/images/bg.png);
+}
+#frame
+{
+    border-image: url(:/img/resrc/images/biaotibeijing.png);
+}
+
+
+#label
+{
+    border-image: url(:/img/resrc/images/biaotibeijing.png);
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+/* CEquipmentAttibutes begin */
+
+CEquipmentAttibutes #zidan_logo
+{
+	border-image: url(:/img/resrc/images/roctet.png);
+}
+CEquipmentAttibutes #chart_frame
+{
+	border-image: url(:/img/resrc/images/feiji.png);
+}
+CEquipmentAttibutes #label_speed
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+CEquipmentAttibutes #zidan_number
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+CEquipmentAttibutes #label_danyao
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+CEquipmentAttibutes #label_fa
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+CEquipmentAttibutes #zidan_progressBar
+{
+    border: 1px solid #132635;
+    max-height: 3px;
+    margin-top: 0px;
+    margin-right: 48px;
+}
+
+CEquipmentAttibutes #zidan_progressBar
+{
+    background: qlineargradient(x1:0,
+    y1: 0,
+    x2: 1,
+    y2: 0,
+    stop: 0 rgb(255, 170, 0),
+    stop: 1 rgb(255, 170, 0));
+    margin: 0px;
+}
+/* CEquipmentAttibutes end */
+/* CEquipmentSetting begin */
+CEquipmentSetting #label_sbwd
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+CEquipmentSetting #label_tmdata
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+CEquipmentSetting #label_ssd
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:10px;
+}
+CEquipmentSetting #label_tmimage
+{
+	border-image: url(:/img/resrc/images/tem.png);
+}
+CEquipmentSetting #label_sbdl
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+CEquipmentSetting #label_btdata
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+CEquipmentSetting #label_pr
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:10px;
+}
+CEquipmentSetting #label_btimage
+{
+	border-image: url(:/img/resrc/images/buttry.png);
+}
+CEquipmentSetting #label_sbyl
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+CEquipmentSetting #label_prdata
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:13px;
+}
+CEquipmentSetting #label_mpa
+{
+	color: #ffffff;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-size:10px;
+}
+CEquipmentSetting #label_primage
+{
+	border-image: url(:/img/resrc/images/press.png);
+}
+/* CEquipmentSetting end */
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame_3">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="minimumSize">
+           <size>
+            <width>135</width>
+            <height>18</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>18</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <property name="margin">
+            <number>0</number>
+           </property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox">
+               <property name="minimumSize">
+                <size>
+                 <width>130</width>
+                 <height>15</height>
+                </size>
+               </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="inputMethodHints">
+                <set>Qt::ImhNone</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <spacer name="horizontalSpacer_9">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="CEquipmentAttibutes" name="EquipmentAtttibutes" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>182</width>
+            <height>233</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>182</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_10">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <spacer name="horizontalSpacer_11">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="CEquipmentSetting" name="Equiomentsetting" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>182</width>
+            <height>105</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>182</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_12">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <spacer name="horizontalSpacer_7">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="maximumSize">
+           <size>
+            <width>136</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <property name="margin">
+            <number>0</number>
+           </property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="minimumSize">
+                <size>
+                 <width>135</width>
+                 <height>18</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>装备能力</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_8">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <spacer name="horizontalSpacer_13">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="RadarChart" name="pRadarChart" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>202</width>
+            <height>202</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>202</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="margin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QGraphicsView" name="graphicsView">
+             <property name="minimumSize">
+              <size>
+               <width>202</width>
+               <height>202</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>202</width>
+               <height>202</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+             <property name="verticalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_14">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CEquipmentAttibutes</class>
+   <extends>QWidget</extends>
+   <header>EquipmentAttibutes.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CEquipmentSetting</class>
+   <extends>QWidget</extends>
+   <header>EquipmentSetting.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RadarChart</class>
+   <extends>QWidget</extends>
+   <header>RadarChart.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

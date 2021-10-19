@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/qss_mainwindow">
+        <file>Resources/qss_mainwindow/topstyle.css</file>
+    </qresource>
+    <qresource prefix="/images_mainwindow">
+        <file>Resources/images_mainwindow/guanbi.png</file>
+        <file>Resources/images_mainwindow/logo.png</file>
+    </qresource>
+</RCC>

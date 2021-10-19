@@ -1,0 +1,166 @@
+﻿开始生成时的环境:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\pc\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = HG-XMB-DEV
+ComSpec = C:\Windows\system32\cmd.exe
+DriverData = C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+HOMEDRIVE = C:
+HOMEPATH = \Users\pc
+LOCALAPPDATA = C:\Users\pc\AppData\Local
+LOGONSERVER = \\HG-XMB-DEV
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\pc\OneDrive
+OS = Windows_NT
+Path = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\CMake\bin;C:\Program Files\Git\cmd;%QTDIR\bin;D:\Program Files (x86)\Git\cmd;C:\HGxPlatform-\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\pc\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\pc\AppData\Local\Programs\Python\Python36-32\;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\Microsoft VS Code\bin;C:\Qt\Qt5.9.3\5.9.3\msvc2015_64\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\pc\AppData\Local\Microsoft\VisualStudio\14.0\devenv.exe.config
+PLATFORM_DATA = C:\HGxPlatform-\x64Bin\Data
+PLATFORM_OBJECT = C:\HGxPlatform-\bin\PlatformPlugin
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 9e09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC = C:\Users\Public
+QTDIR = C:\Qt\Qt5.9.3\5.9.3\msvc2015_64
+QtMsBuild = C:\Users\pc\AppData\Local\QtMsBuild
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\pc\AppData\Local\Temp
+TMP = C:\Users\pc\AppData\Local\Temp
+USERDOMAIN = HG-XMB-DEV
+USERDOMAIN_ROAMINGPROFILE = HG-XMB-DEV
+USERNAME = pc
+USERPROFILE = C:\Users\pc
+VisualStudioDir = C:\Users\pc\Documents\Visual Studio 2015
+VisualStudioEdition = Microsoft Visual Studio Enterprise 2015
+VisualStudioVersion = 14.0
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSLANG = 2052
+windir = C:\Windows
+WXDRIVE_START_ARGS = --wxdrive-setting=0 --disable-gpu --disable-software-rasterizer --enable-features=NetworkServiceInProcess
+
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  SrkTs01.vcxproj -> C:\Users\pc\Documents\WXWork\1688850819176681\WeDrive\恒歌科技\我的文件\项目\SrkTs01\Debug\SrkTs01.exe
+  SrkTs01.vcxproj -> C:\Users\pc\Documents\WXWork\1688850819176681\WeDrive\恒歌科技\我的文件\项目\SrkTs01\Debug\SrkTs01.pdb (Partial PDB)
+
+项目性能摘要:
+      517 毫秒 C:\Users\pc\Documents\WXWork\1688850819176681\WeDrive\恒歌科技\我的文件\项目\SrkTs01\SrkTs01.vcxproj   1 次调用
+                517 毫秒 Build                                      1 次调用
+
+目标性能摘要:
+        0 毫秒 AfterBuildCompileEvent                     1 次调用
+        0 毫秒 SelectClCompile                            1 次调用
+        0 毫秒 GetCopyToOutputDirectoryXamlAppDefs        1 次调用
+        0 毫秒 _CheckForCompileOutputs                    1 次调用
+        0 毫秒 GetResolvedWinMD                           1 次调用
+        0 毫秒 _Manifest                                  1 次调用
+        0 毫秒 _SelectedFiles                             1 次调用
+        0 毫秒 _PrepareForBuild                           1 次调用
+        0 毫秒 PostBuildEvent                             1 次调用
+        0 毫秒 _Midl                                      1 次调用
+        0 毫秒 ResolveReferences                          1 次调用
+        0 毫秒 SelectCustomBuild                          1 次调用
+        0 毫秒 FixupCLCompileOptions                      1 次调用
+        0 毫秒 ModifyUnitTestPlatformVersion              1 次调用
+        0 毫秒 CreateCustomManifestResourceNames          1 次调用
+        0 毫秒 SetBuildDefaultEnvironmentVariables        1 次调用
+        0 毫秒 ResolveAssemblyReferences                  1 次调用
+        0 毫秒 BeforeLink                                 1 次调用
+        0 毫秒 AfterBuild                                 1 次调用
+        0 毫秒 ComputeCLInputPDBName                      1 次调用
+        0 毫秒 ComputeManifestInputsTargets               1 次调用
+        0 毫秒 _ClCompile                                 1 次调用
+        0 毫秒 ComputeManifestGeneratedLinkerInputs       1 次调用
+        0 毫秒 ComputeCLCompileGeneratedXDCFiles          1 次调用
+        0 毫秒 AfterBuildGenerateSources                  1 次调用
+        0 毫秒 BuildGenerateSources                       1 次调用
+        0 毫秒 _CopySourceItemsToOutputDirectory          1 次调用
+        0 毫秒 GetFrameworkPaths                          1 次调用
+        0 毫秒 AfterResourceCompile                       1 次调用
+        0 毫秒 _Xsd                                       1 次调用
+        0 毫秒 ComputeCustomBuildOutput                   1 次调用
+        0 毫秒 MakeDirsForBscMake                         1 次调用
+        0 毫秒 ComputeLinkSwitches                        1 次调用
+        0 毫秒 _GenerateSatelliteAssemblyInputs           1 次调用
+        0 毫秒 MakeDirsForResourceCompile                 1 次调用
+        0 毫秒 _ResourceCompile                           1 次调用
+        0 毫秒 ComputeLinkInputsFromProject               1 次调用
+        0 毫秒 Build                                      1 次调用
+        0 毫秒 _Link                                      1 次调用
+        0 毫秒 BuildLinkTraverse                          1 次调用
+        0 毫秒 ComputeRCOutputs                           1 次调用
+        0 毫秒 _XdcMake                                   1 次调用
+        0 毫秒 CreateSatelliteAssemblies                  1 次调用
+        0 毫秒 ExpandSDKReferences                        1 次调用
+        0 毫秒 BuildCompileTraverse                       1 次调用
+        0 毫秒 MakeDirsForCl                              1 次调用
+        0 毫秒 GetCopyToOutputDirectoryItems              1 次调用
+        0 毫秒 _BuildLinkAction                           1 次调用
+        0 毫秒 ComputeMIDLGeneratedCompileInputs          1 次调用
+        0 毫秒 AfterMidl                                  1 次调用
+        0 毫秒 BeforeResolveReferences                    1 次调用
+        0 毫秒 BeforeResourceCompile                      1 次调用
+        0 毫秒 PrepareForRun                              1 次调用
+        0 毫秒 PreBuildEvent                              1 次调用
+        0 毫秒 MakeDirsForMidl                            1 次调用
+        0 毫秒 _BscMake                                   1 次调用
+        0 毫秒 _Appverifier                               1 次调用
+        0 毫秒 RegisterOutput                             1 次调用
+        0 毫秒 _BuildGenerateSourcesAction                1 次调用
+        0 毫秒 BuildLink                                  1 次调用
+        0 毫秒 ComputeCLCompileGeneratedSbrFiles          1 次调用
+        0 毫秒 ResolveSDKReferences                       1 次调用
+        0 毫秒 _ALink                                     1 次调用
+        0 毫秒 Desktop_PlatformPrepareForBuild            1 次调用
+        0 毫秒 ComputeCLGeneratedLinkInputs               1 次调用
+        0 毫秒 ResolveProjectReferences                   1 次调用
+        0 毫秒 _SplitProjectReferencesByFileExistence     1 次调用
+        0 毫秒 AssignTargetPaths                          1 次调用
+        0 毫秒 ComputeLegacyManifestEmbedding             1 次调用
+        0 毫秒 AfterResolveReferences                     1 次调用
+        0 毫秒 BeforeClCompile                            1 次调用
+        0 毫秒 ComputeReferenceCLInput                    1 次调用
+        0 毫秒 _Deploy                                    1 次调用
+        0 毫秒 AfterBuildGenerateSourcesEvent             1 次调用
+        0 毫秒 BeforeBuildGenerateSources                 1 次调用
+        0 毫秒 GetInstalledSDKLocations                   1 次调用
+        0 毫秒 MakeDirsForLink                            1 次调用
+        0 毫秒 _PrepareForReferenceResolution             1 次调用
+        0 毫秒 _BuildCompileAction                        1 次调用
+        0 毫秒 AfterClCompile                             1 次调用
+        0 毫秒 ResolvedXDCMake                            1 次调用
+        0 毫秒 BuildCompile                               1 次调用
+        0 毫秒 ComputeRCGeneratedLinkInputs               1 次调用
+        0 毫秒 PreLinkEvent                               1 次调用
+        0 毫秒 AfterLink                                  1 次调用
+        0 毫秒 PrepareResourceNames                       1 次调用
+        1 毫秒 ComputeLinkImportLibraryOutputsForClean    1 次调用
+        1 毫秒 DoLinkOutputFilesMatch                     1 次调用
+        1 毫秒 PlatformPrepareForBuild                    1 次调用
+        1 毫秒 BuildGenerateSourcesTraverse               1 次调用
+        1 毫秒 ComputeCLOutputs                           1 次调用
+        1 毫秒 WarnCompileDuplicatedFilename              1 次调用
+        1 毫秒 MakeDirsForXdcMake                         1 次调用
+        1 毫秒 GetReferenceAssemblyPaths                  1 次调用
+        1 毫秒 AssignProjectConfiguration                 1 次调用
+        1 毫秒 SplitResourcesByCulture                    1 次调用
+        3 毫秒 _CheckForInvalidConfigurationAndPlatform   1 次调用
+        3 毫秒 InitializeBuildStatus                      1 次调用
+        3 毫秒 FinalizeBuildStatus                        1 次调用
+        3 毫秒 PrepareForBuild                            1 次调用
+        5 毫秒 CopyFilesToOutputDirectory                 1 次调用
+        7 毫秒 SetCABuildNativeEnvironmentVariables       1 次调用
+       14 毫秒 ClCompile                                  1 次调用
+      466 毫秒 Link                                       1 次调用

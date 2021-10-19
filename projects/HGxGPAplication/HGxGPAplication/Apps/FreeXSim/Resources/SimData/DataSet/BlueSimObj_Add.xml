@@ -1,0 +1,271 @@
+﻿<FreeXSim>
+	<SceneObj>
+		<!--1-红方 2-蓝方 3-不明-->
+	<!--1-海上装备 2-陆地装备 3-空中装备-->
+	<!-- 1-飞机 2-坦克 3-导弹发射车 4-导弹 5-航母 6-护卫舰-->
+	<!--l蓝方飞机-->
+		<Obj parentId="0" id="30000" camp="2" spaceType="3" equType="1" commuState="0" name="F-16C_6">
+			<!--初始位置姿态-->
+			<Position lon="41.42323303" lat="43.07699585" alt="4000.00000000"/>
+			<Posture az="319.79998779" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="226.28999329"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="226.28999329" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30000.txt"/>
+		</Obj>
+		<Obj parentId="0" id="30001" camp="2" spaceType="3" equType="1" commuState="0" name="F-16C_7">
+			<!--初始位置姿态-->
+			<Position lon="41.42366791" lat="43.07688904" alt="4000.00000000"/>
+			<Posture az="319.79998779" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="199.16999817"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="199" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30001.txt"/>
+		</Obj>	
+		<Obj parentId="0" id="30002" camp="2" spaceType="3" equType="1" commuState="0" name="F-4E_6">
+			<!--初始位置姿态-->
+			<Position lon="41.49727249" lat="42.95371246" alt="3400.00000000"/>
+			<Posture az="298.10000610" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="268.88000488"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="268" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30002.txt"/>
+		</Obj>	
+		<Obj parentId="0" id="30003" camp="2" spaceType="3" equType="1" commuState="0" name="F-4E_7">
+			<!--初始位置姿态-->
+			<Position lon="41.49773026" lat="42.96372391" alt="3400.00000000"/>
+			<Posture az="298.10000610" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="338.55999756"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="338" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30003.txt"/>
+		</Obj>	
+			<Obj parentId="0" id="30004" camp="2" spaceType="3" equType="1" commuState="0" name="Su-27_4">
+			<!--初始位置姿态-->
+			<Position lon="41.15270615" lat="43.52918243" alt="3036.18999863"/>
+			<Posture az="47.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="330.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="330.98001099" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30004.txt"/>
+		</Obj>
+		
+		<Obj parentId="0" id="30005" camp="2" spaceType="3" equType="1" commuState="0" name="Su-27_5">
+			<!--初始位置姿态-->
+			<Position lon="41.15266800" lat="43.52891159" alt="3036.20999908"/>
+			<Posture az="47.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="334.66000366"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="334.66000366" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30005.txt"/>
+		</Obj>
+		<Obj parentId="0" id="30006" camp="2" spaceType="3" equType="1" commuState="0" name="MiG-29S_3">
+			<!--初始位置姿态-->
+			<Position lon="40.96449661" lat="43.58152008" alt="3031.60000038"/>
+			<Posture az="267.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="190.22000122"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="331" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30006.txt"/>
+		</Obj>	
+		
+		<Obj parentId="0" id="30007" camp="2" spaceType="3" equType="1" commuState="0" name="MiG-29S_4">
+			<!--初始位置姿态-->
+			<Position lon="40.96478271" lat="43.58171082" alt="3031.60000038"/>
+			<Posture az="267.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="254.66000366"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="254" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30007.txt"/>
+		</Obj>	
+		<Obj parentId="0" id="30008" camp="2" spaceType="3" equType="1" commuState="0" name="IL-76MD_1">
+			<!--初始位置姿态-->
+			<Position lon="41.29021454" lat="43.71878815" alt="30150.00000000"/>
+			<Posture az="125.69999695" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32000732"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="698" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30008.txt"/>
+			<!--传感器信息-->
+		</Obj>	
+		
+		<Obj parentId="0" id="30009" camp="2" spaceType="3" equType="7" commuState="0" name="蓝方直升机1">
+			<!--初始位置姿态-->
+			<Position lon="34.345113" lat="43.075193" alt="1000.00000000"/>
+			<Posture az="100" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32000732"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="698" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30009.txt"/>
+			<!--传感器信息-->
+		</Obj>	
+		<Obj parentId="0" id="30010" camp="2" spaceType="3" equType="7" commuState="0" name="蓝方直升机2">
+			<!--初始位置姿态-->
+			<Position lon="34.345362" lat="43.077024" alt="1000.00000000"/>
+			<Posture az="100" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32000732"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="698" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="30010.txt"/>
+			<!--传感器信息-->
+		</Obj>	
+	<!--l蓝方飞机-->
+<!--蓝方海面舰队-->
+		<Obj parentId="0" id="10000" camp="2" spaceType="1" equType="5" commuState="1" name="蓝方航母舰队">
+			<!--初始位置姿态-->
+			<Position lon="34.342514" lat="43.076590" alt="0.00000000"/>
+			<Posture az="100" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="226.28999329" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="BlueSea10000.txt"/>
+		</Obj>
+		<Obj parentId="10000" id="10001" camp="2" spaceType="1" equType="6" commuState="1" name="蓝方补给舰1">
+			<!--初始位置姿态-->
+			<Position lon="34.340929" lat="43.076427" alt="0.00000000"/>
+			<Posture az="100" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+			<!--传感器信息-->
+			<Senors num="1">
+				<Senor senorID="1" azStartAngle="0" azEndAngle="360" pitchStartAngle="0" pitchEndAngle="90" radius="20000" state="1" prefer="1" beamNum="0" period="5">
+				</Senor>
+			<!--雷达侦测/跟踪数据-->
+			</Senors>
+			<!--航迹数据-->
+			<TrackData filePath="BlueSea10001.txt"/>
+		</Obj>
+		<Obj parentId="10000" id="10002" camp="2" spaceType="1" equType="6" commuState="1" name="蓝方驱逐舰1">
+			<!--初始位置姿态-->
+			<Position lon="34.342448" lat="43.077235" alt="0.00000000"/>
+			<Posture az="100" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="BlueSea10002.txt"/>
+		</Obj>
+		<Obj parentId="10000" id="10003" camp="2" spaceType="1" equType="6" commuState="1" name="蓝方驱逐舰2">
+			<!--初始位置姿态-->
+			<Position lon="34.343837" lat="43.076822" alt="0.00000000"/>
+			<Posture az="100" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="BlueSea10003.txt"/>
+		</Obj>
+		<Obj parentId="10000" id="10004" camp="2" spaceType="1" equType="6" commuState="1" name="蓝方驱逐舰4">
+			<!--初始位置姿态-->
+			<Position lon="34.853951" lat="43.332070" alt="0.00000000"/>
+			<Posture az="61" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="BlueSea10004.txt"/>
+		</Obj>
+		<Obj parentId="10000" id="10005" camp="2" spaceType="1" equType="6" commuState="1" name="蓝方补给舰2">
+			<!--初始位置姿态-->
+			<Position lon="34.342150" lat="43.075987" alt="0.00000000"/>
+			<Posture az="100" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="BlueSea10005.txt"/>
+		</Obj>
+		<Obj parentId="10000" id="10006" camp="2" spaceType="1" equType="6" commuState="1" name="蓝方护卫舰2">
+			<!--初始位置姿态-->
+			<Position lon="34.343560" lat="43.075950" alt="0.00000000"/>
+			<Posture az="100" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="BlueSea10006.txt"/>
+		</Obj>
+		<Obj parentId="10000" id="10007" camp="2" spaceType="1" equType="6" commuState="1" name="蓝方护卫舰1">
+			<!--初始位置姿态-->
+			<Position lon="34.341096" lat="43.077087" alt="0.00000000"/>
+			<Posture az="100" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="BlueSea10007.txt"/>
+		</Obj>
+		<Obj parentId="10000" id="10008" camp="2" spaceType="1" equType="6" commuState="1" name="蓝方驱逐舰3">
+			<!--初始位置姿态-->
+			<Position lon="34.830012" lat="43.367099" alt="0"/>
+			<Posture az="61" pitch="0.00000000" roll="0.00000000"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="BlueSea10008.txt"/>			
+		</Obj>
+		<!--蓝方航母舰队-->
+	</SceneObj>
+</FreeXSim>

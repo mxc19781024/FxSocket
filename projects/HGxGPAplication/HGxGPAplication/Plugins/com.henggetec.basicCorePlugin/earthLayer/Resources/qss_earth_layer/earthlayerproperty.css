@@ -1,0 +1,96 @@
+QLabel
+{
+	color: #e5eef3; 
+}
+
+QScrollArea #scrollAreaWidgetContents
+{
+	background:transparent;
+}
+#m_pSaveBtn
+{
+	color: #ffffff;
+	background: transparent;
+}
+#m_pCancelBtn
+{
+	color: #999999;
+	background: transparent;
+}
+
+#m_pCancelBtn:hover
+{
+	color: #ffffff;
+}
+#m_pSaveBtn:pressed, #m_pCancelBtn:pressed
+{
+	color: #3b7cff;
+}
+	
+#line_3{border:none;max-width:1px;border-image:url(:/Resources/images/line11.png);}
+#line_5{border:none;max-height:1px;border-image:url(:/Resources/images/line1.png);}
+#line_6{border:none;max-height:1px;border-image:url(:/Resources/images/line1.png);}
+#line{border:none;max-height:1px;border-image:url(:/Resources/images/line1.png);}
+
+#m_pPathToolBtn{border-image:url(:/Resources/images_earth_layer/normal.png);}
+#m_pPathToolBtn:hover{border-image:url(:/Resources/images_earth_layer/hover.png);}
+#m_pPathToolBtn:pressed{image:url(:/Resources/images_earth_layer/pressed.png);}
+
+#m_pHttpToolBtn{border-image:url(:/Resources/images_earth_layer/lianjie.png);}
+#m_pHttpToolBtn:hover{border-image:url(:/Resources/images_earth_layer/lianjie_hover.png);}
+#m_pHttpToolBtn:pressed{image:url(:/Resources/images_earth_layer/lianjie_pressed.png);}
+
+#m_pPixelPushBtn, #m_pDistancePushBtn,#m_pDataFilePushBtn,#m_pHttpDirPushBtn
+{
+	color: #9da5b0;
+	border-image:url(":/Resources/images_earth_layer/PushButton/button.png")2 2 2 2;
+	border-width:2px;
+}
+
+#m_pPixelPushBtn:checked, #m_pDistancePushBtn:checked,#m_pDataFilePushBtn:checked, #m_pHttpDirPushBtn:checked
+{
+	color: #cfdbea;
+	border-image:url(":/Resources/images_earth_layer/PushButton/button_pressed.png")2 2 2 2;
+	border-width:2px;
+}
+#m_pAdvancedPushBtn
+{
+    border-image:url(:/Resources/images_earth_layer/images/arrow.png);
+}
+
+#m_pAdvancedPushBtn:hover
+{
+	border-image:url(:/Resources/images_earth_layer/images/arrow_hover_down.png);
+}
+
+#m_pAdvancedPushBtn:pressed
+{
+	border-image:url(:/Resources/images_earth_layer/images/arrow_pressed.png);
+}
+
+#m_pAdvancedPushBtn:checked
+{
+	border-image:url(:/Resources/images_earth_layer/images/arrow_up.png);
+}
+
+#m_pAdvancedPushBtn:checked:hover
+{
+	border-image:url(:/Resources/images_earth_layer/images/arrow_hover_up.png);
+}
+
+#m_pAdvancedPushBtn:checked:pressed
+{
+	border-image:url(:/Resources/images_earth_layer/images/arrow_pressed_up.png);
+}
+#m_pChangeAxisBtn
+{
+	border-image: url(:/Resources/images_earth_layer/zhuanhuan2_normal.png) ;
+}
+#m_pChangeAxisBtn:hover
+{
+	border-image: url(:/Resources/images_earth_layer/zhuanhuan2_hover.png) ;
+}
+#m_pChangeAxisBtn:pressed
+{
+	border-image: url(:/Resources/images_earth_layer/zhuanhuan2_press.png) ;
+}

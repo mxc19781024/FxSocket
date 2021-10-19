@@ -1,0 +1,48 @@
+CLayerTypeSelectWidget
+{
+	font-size: 13px;
+	background: transparent;
+	border: none;
+	outline: 0px;
+	font-family: "Microsoft YaHei";
+}
+
+CLayerTypeSelectWidget #center_wgt
+{
+	border-image: url(:/Resources/images/bgImage.png) 10 14 16 14;
+	border-width: 10 14 16 14;
+}
+
+/*CLayerTypeSelectWidget QPushButton
+{
+	color: #9da5b0;
+	background: transparent;
+}
+CLayerTypeSelectWidget QPushButton:hover
+{
+	color: #ffffff;
+}
+CLayerTypeSelectWidget QPushButton:pressed
+{
+	color: #3b7cff;
+}*/
+	
+CLayerTypeSelectWidget QLabel{
+	color:#ffffff;
+	font-size:13px;
+	font-family:Microsoft YaHei;
+}
+
+CLayerTypeSelectWidget QRadioButton {
+	color: #ffffff;
+	font-size:13px;
+}
+
+QFrame[frameShape="5"]
+{
+	border: none;
+	max-width: 1px;
+	max-height: 12px;
+	background: #232323;
+}
+

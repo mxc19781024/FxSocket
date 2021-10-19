@@ -1,0 +1,61 @@
+QWidget#LoginWidget{
+	/*background-color:rgba(112,112,113,255);*/
+}
+
+QWidget#InPut{
+
+}
+
+QWidget#LoginContext{
+	border-radius:10px;	
+	background-color:rgba(255,255,255,100);
+}
+
+QLineEdit{
+	color:black;
+	font-size:12px;
+	border-radius:5px;
+	background-color:rgba(221,221,221,200);
+}
+
+QPushButton#LoginButton{
+	font-size:12px;
+	color:white;
+	border-radius:15px;
+	background-color:#5599FF;
+}
+
+QPushButton#LoginButton:hover{
+	background-color:rgb(75,75,75,255);
+}
+
+QPushButton#LoginButton:pressed{	
+	padding-top:3px;
+}
+
+QPushButton#ExitButton{
+	font-size:12px;
+	color:white;
+	border-radius:15px;
+	background-color:#5599FF;
+}
+
+QPushButton#ExitButton:hover{
+	background-color:rgb(75,75,75,255);
+}
+
+QPushButton#ExitButton:pressed{	
+	padding-top:3px;
+}
+
+
+QPushButton#UsrImage{
+	background-color:rgba(0,0,0,255);
+	border:0px solid rgba(102,102,102,255);
+	border-radius:50;
+}
+
+QLabel#Title{
+	font:20px "ËÎÌו";
+	color:rgba(36,37,38,255);
+}

@@ -1,0 +1,240 @@
+﻿
+* {
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: white;
+    background: transparent;
+}
+
+FxUi--CSituationDetail {
+    border-image: url(":/situation_detail/img/bg");
+}
+
+#date_time_row * {
+    font-size: 17px;
+    color: #98fffe;
+}
+
+QTabWidget::tab-bar {
+    alignment: center;
+}
+
+QTabWidget::pane {
+    border: 0;
+}
+
+QTabBar::tab {
+    min-width: 138px;
+    min-height: 32px;
+    font-size: 18px;
+    border-image: url(":/situation_detail/img/tab_nor");
+}
+
+QTabBar::tab:hover {
+    border-image: url(":/situation_detail/img/tab_hover");
+}
+
+QTabBar::tab:selected {
+    border-image: url(":/situation_detail/img/tab_checked");
+}
+
+/*QTabBar::tab:pressed {*/
+/*    border-image: url(":/situation_detail/img/tab_pressed");*/
+/*}*/
+
+/******************************************************************************/
+/*态势清晰度*/
+
+FxUi--CSituationClarity {
+    border-image: url(":/situation_detail/img/tab_bg_top");
+}
+
+FxUi--CSituationClarity[type="unit"] {
+    border-image: url(":/situation_detail/img/tab_bg_tail");
+}
+
+FxUi--CSituationClarity QLabel {
+    font-size: 15px;
+}
+
+/*上 左 右 标题*/
+#title_label,
+#left_title_label,
+#right_title_label {
+    font-size: 15px;
+}
+
+/*态势一致性 态势完备性*/
+#consistency_label,
+#completeness_label {
+    font-size: 18px;
+}
+
+QProgressBar {
+    font-size: 20px;
+}
+
+#consistency_progress_bar,
+#completeness_progress_bar {
+    border: 1px solid #132635;
+    text-align: right;
+    max-height: 15px;
+    margin-top: 2px;
+    margin-right: 48px;
+}
+
+#consistency_progress_bar::chunk {
+    background: qlineargradient(x1:0,
+    y1: 0,
+    x2: 1,
+    y2: 0,
+    stop: 0 #0d2d21,
+    stop: 1 #0aa9a0);
+    margin: 1px;
+}
+
+#completeness_progress_bar::chunk {
+    background: qlineargradient(x1:0,
+    y1: 0,
+    x2: 1,
+    y2: 0,
+    stop: 0 #0d182d,
+    stop: 1 #0ea6cc);
+    margin: 1px;
+}
+
+/*态势时效性*/
+#timeliness_title_label {
+    font-size: 16px;
+}
+#timeliness_label {
+    font-size: 20px;
+}
+#timeliness_semi_circle
+{
+    border: 1px solid red;
+}
+
+/*参数 控制准确性 XD冲突数 抗击效能 防护效能*/
+#control_accuracy_label,
+#xd_conflict_amount_label,
+#fighting_effectiveness_label,
+#defense_effectiveness_label,
+#arg_label,
+#arg_label_2,
+#arg_label_3 {
+    font-size: 24px;
+}
+
+#fighting_effectiveness_title_label,
+#defense_effectiveness_title_label {
+    font-size: 13px;
+}
+
+#control_accuracy_label,
+#xd_conflict_amount_label {
+    border-radius: 5px;
+    padding-bottom: 2px;
+}
+
+#control_accuracy_label {
+    background: #0066ae;
+    border: 1px solid #39caff;
+}
+
+#xd_conflict_amount_label {
+    background: #027667;
+    border: 1px solid #39ffbb;
+}
+
+#fighting_effectiveness_icon_widget {
+    border-image: url(":/situation_detail/img/fighting_effectiveness");
+}
+
+#defense_effectiveness_icon_widget {
+    border-image: url(":/situation_detail/img/defensive_effectiveness");
+}
+
+/*令行一致性 任务完成率*/
+#command_action_consistency_title_label,
+#task_completion_rate_title_label_2 {
+    font-size: 13px;
+}
+
+#task_completion_rate_title_progress_bar,
+#command_action_consistency_progress_bar {
+    max-height: 16px;
+    border: none;
+    margin-right: 48px;
+    text-align: right;
+}
+
+#task_completion_rate_title_progress_bar::chunk,
+#command_action_consistency_progress_bar::chunk {
+    border-radius: 8px;
+}
+
+#command_action_consistency_progress_bar::chunk {
+    background: qlineargradient(x1:0,
+    y1: 0,
+    x2: 1,
+    y2: 0,
+    stop: 0 #093957,
+    stop: 1 #0f98f7);
+}
+
+#task_completion_rate_title_progress_bar::chunk {
+    background: qlineargradient(x1:0,
+    y1: 0,
+    x2: 1,
+    y2: 0,
+    stop: 0 #064b45,
+    stop: 1 #0ff7a8);
+}
+
+/*总体效能比*/
+#ammunition_icon_widget {
+    border-image: url(":/situation_detail/img/ammunition");
+}
+
+#aircraft_icon_widget {
+    border-image: url(":/situation_detail/img/aircraft");
+}
+
+#division_sign_label {
+    font-size: 35px;
+    margin-bottom: 5px;
+    color: #36DCFF;
+}
+
+#colon_sign_label {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 18px;
+    color: #36DCFF;
+}
+
+/*体系整体协调性*/
+#overall_effectiveness_label {
+    font-size: 24px;
+}
+
+#overall_effectiveness_title_label {
+    font-size: 18px;
+}
+
+#overall_coordination_progress_ball {
+}
+
+#overall_coordination_title_label {
+    font-size: 18px;
+}
+
+#overall_coordination_label {
+    font-size: 30px;
+}
+
+#unit_name_label
+{
+    font-size: 18px;
+}

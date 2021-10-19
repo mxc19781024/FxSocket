@@ -1,0 +1,193 @@
+CDotLayerPropertyWgt, CFacetLayerPropertyWgt, CLineLayerPropertyWgt, CLayerPropertyWgt
+{
+	background-color: #333333;
+	font-family: "Microsoft YaHei";
+	font-size:12px;
+	outline: 0px;
+	border: none;
+}
+*{
+	font-family:"Microsoft YaHei"; 
+	font-size:12px;
+	border:none;
+	outline:0px;
+}
+
+/*QComboBox*/
+QComboBox,QFontComboBox
+{
+	background-color: #222222;
+	color: #ffffff;	
+	min-height: 20px;
+	max-height: 20px;
+}
+QComboBox:editable{
+	border-image:url(Image/Common/InputWgt/ComboBox/normal.png) 2; 
+	border-width:2;
+}
+QComboBox:editable:focus{ 
+	border:1px solid #1b7fcd; 
+	background-color: rgba(15, 81, 148, 60%); 
+}
+QComboBox:!editable:!disabled{
+	border-image:url(Image/Common/InputWgt/ComboBox/readonly_normal.png) 2;
+	border-width:2;
+}
+QComboBox:!editable:!disabled:hover{
+	border-image:url(Image/Common/InputWgt/ComboBox/readonly_hover.png) 2;
+	border-width:2;
+}
+QComboBox::drop-down {
+	min-width:8;
+	max-width:8;
+	min-height:5;
+	max-height:5;
+	image:url(:/image_layauxiliary/Resources/images/ComboBox/arrow_down.png);
+}
+QComboBox QAbstractItemView{
+	color: #e5eef3; 
+	border: 1px solid #475b76; 
+	background-color: #475b76; 
+	selection-background-color:#34445b;
+}
+/*QComboBox*/
+
+QLabel
+{	
+	color: #bfcad8;
+	font-family: "Microsoft YaHei";
+	font-size:12px;
+}
+
+/* LineEdit,TextEdit,SpinBox 通用样式 begin */
+QLineEdit,QTextEdit,QSpinBox,QDoubleSpinBox
+{
+	color: #ffffff;
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #222222;
+	border: 1px solid #222222;
+	border-radius: 4px;
+}
+QLineEdit:hover,QTextEdit:hover,QSpinBox:hover,QDoubleSpinBox:hover
+{
+	border: 1px solid #233245;
+}
+QLineEdit:focus,QTextEdit:focus,QSpinBox:focus,QDoubleSpinBox:focus
+{
+	border: 1px solid #465b78;
+}
+QLineEdit,QSpinBox,QDoubleSpinBox
+{
+	min-height: 20px;
+	max-height: 20px;
+}
+QTextEdit
+{
+	min-height: 50px;
+	max-height: 50px;
+}
+QTextEdit QScrollBar::handle
+{
+	border-radius: 2px;
+}
+QTextEdit QScrollBar:vertical
+{
+    width: 5px;
+    padding: 0;
+}
+/* LineEdit,TextEdit,SpinBox 通用样式 end */
+
+/*QGroupBox*/
+QGroupBox{
+	color:#ffffff;
+	border:1px solid #222222;
+	margin-top:10px;
+}
+QGroupBox::title{
+	subcontrol-origin:margin;
+	subcontrol-position:top left;
+	padding:0 3px;
+}
+/*QGroupBox*/
+
+QFrame[frameShape="4"]
+{
+	border: none;
+	max-height: 1px;
+	background: #232323;
+}
+
+#pIconPathTBtn
+{
+	border-image:url(:/image_layauxiliary/Resources/images/PushButton/normal.png)2 2 2 2;
+	border-width:2px;
+}
+#pIconPathTBtn:hover
+{
+	border-image:url(:/image_layauxiliary/Resources/images/PushButton/hover.png)2 2 2 2;
+	border-width:2px;
+}
+
+#pIconPathTBtn:pressed
+{
+	border-image:url(:/image_layauxiliary/Resources/images/PushButton/pressed.png)2 2 2 2;
+	border-width:2px;
+}
+
+#pAllVisiblePushBtn, #pDotVisiblePushBtn,#pAllVisible2DPushBtn,#pDotVisible2DPushBtn
+{
+	color: #9da5b0;
+	border-image:url(":/image_layauxiliary/Resources/images/PushButton/button.png")2 2 2 2;
+	border-width:2px;
+}
+
+#pAllVisiblePushBtn:checked, #pDotVisiblePushBtn:checked,#pAllVisible2DPushBtn:checked, #pDotVisible2DPushBtn:checked
+{
+	color: #cfdbea;
+	border-image:url(":/image_layauxiliary/Resources/images/PushButton/button_pressed.png")2 2 2 2;
+	border-width:2px;
+}
+
+
+#pMinToolBtn, #pMaxToolBtn, #pMin2DToolBtn,#pMax2DToolBtn
+{	
+	border-image:url(:/image_layauxiliary/Resources/images/location.png)2 2 2 2;
+	border-width:2px;
+}
+
+#pMinToolBtn:hover, #pMaxToolBtn:hover,#pMin2DToolBtn:hover, #pMax2DToolBtn:hover
+{
+	border-image:url(:/image_layauxiliary/Resources/images/location_h.png)2 2 2 2;
+	border-width:2px;
+}
+
+#pMinToolBtn:pressed, #pMaxToolBtn:pressed,#pMin2DToolBtn:pressed, #pMax2DToolBtn:pressed
+{
+	border-image:url(:/image_layauxiliary/Resources/images/location_p.png)2 2 2 2;
+	border-width:2px;
+}
+
+#pMinRangeLabel,#pMaxRangeLabel
+{
+	color: #a5acb5;
+}
+
+#pCacheEnableBtn
+{	
+	background-color: #333333;
+	border-image:url(:/image_layauxiliary/Resources/images/switch_off.png);
+}
+
+#pCacheEnableBtn:checked
+{
+	border-image:url(:/image_layauxiliary/Resources/images/switch_on.png);
+}
+
+#pCacheEnableBtn:unchecked
+{
+	border-image:url(:/image_layauxiliary/Resources/images/switch_off.png);
+}
+
+
+

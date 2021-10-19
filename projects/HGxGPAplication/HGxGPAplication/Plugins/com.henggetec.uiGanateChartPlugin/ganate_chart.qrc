@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>resrc/images/dikuang.png</file>
+        <file>resrc/images/2.png</file>
+        <file>resrc/images/3.png</file>
+        <file>resrc/images/4.png</file>
+        <file>resrc/images/5.png</file>
+        <file>resrc/images/6.png</file>
+        <file>resrc/images/7.png</file>
+        <file>resrc/images/1.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>resrc/qss/ganate_chart.css</file>
+    </qresource>
+</RCC>

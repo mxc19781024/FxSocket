@@ -1,0 +1,44 @@
+#fx_toolitem_container_wgt
+{
+	background-color: #333333;
+}
+
+#widget{border-image:url(":/map_manipulator/Resources/images/mainBack.png");}
+#line{border-image:url(":/map_manipulator/Resources/images/line_hor.png");}
+#synchIconWgt{border-image: url(":/map_manipulator/Resources/images/synch.png");}
+
+#fwPushBtn { border-image: url(":/map_manipulator/Resources/images/reset_normal.png");}
+#fwPushBtn:hover { border-image: url(":/map_manipulator/Resources/images/reset_hover.png"); }
+#fwPushBtn:pressed { border-image: url(":/map_manipulator/Resources/images/reset_pressed.png"); }
+
+#myPushBtn { border-image: url(":/map_manipulator/Resources/images/roam_normal.png");}
+#myPushBtn:hover { border-image: url(":/map_manipulator/Resources/images/roam_hover.png"); }
+#myPushBtn:checked { border-image: url(":/map_manipulator/Resources/images/roam_pressed.png"); }
+
+#fdPushBtn { border-image: url(":/map_manipulator/Resources/images/zoomIn_normal.png");}
+#fdPushBtn:hover { border-image: url(":/map_manipulator/Resources/images/zoomIn_hover.png"); }
+#fdPushBtn:checked { border-image: url(":/map_manipulator/Resources/images/zoomIn_pressed.png"); }
+
+#sxPushBtn { border-image: url(":/map_manipulator/Resources/images/zoomOut_normal.png");}
+#sxPushBtn:hover { border-image: url(":/map_manipulator/Resources/images/zoomOut_hover.png"); }
+#sxPushBtn:checked { border-image: url(":/map_manipulator/Resources/images/zoomOut_pressed.png"); }
+
+#synchPushBtn { border-image: url(":/map_manipulator/Resources/images/switch_off.png");}
+#synchPushBtn:checked { border-image: url(":/map_manipulator/Resources/images/switch_on.png"); }
+
+#toolWgt{background: transparent;}
+
+CSceneToolItem
+{
+	border-image:url(:/map_manipulator/Resources/images/item_bg.png) 5 10 6 6;
+	border-width: 5 10 6 6;
+	font-family: "Microsoft YaHei";
+}
+CSceneToolItem:hover
+{
+	border-image:url(:/map_manipulator/Resources/images/item_bg_hover.png) 5 10 6 6;
+}
+CSceneToolItem[selected="true"]
+{
+	 border-image:url(:/map_manipulator/Resources/images/item_bg_hover.png) 5 10 6 6;
+}

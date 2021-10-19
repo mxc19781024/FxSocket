@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/qss_layerauxiliary">
+        <file>Resources/qss/layerproperty.css</file>
+    </qresource>
+    <qresource prefix="/image_layauxiliary">
+        <file>Resources/images/ComboBox/arrow_down.png</file>
+        <file>Resources/images/PushButton/button.png</file>
+        <file>Resources/images/PushButton/button_pressed.png</file>
+        <file>Resources/images/SpinBox/arrow_down.png</file>
+        <file>Resources/images/SpinBox/arrow_down_pressed.png</file>
+        <file>Resources/images/SpinBox/arrow_up.png</file>
+        <file>Resources/images/SpinBox/arrow_up_pressed.png</file>
+        <file>Resources/images/location.png</file>
+        <file>Resources/images/location_h.png</file>
+        <file>Resources/images/location_p.png</file>
+        <file>Resources/images/switch_off.png</file>
+        <file>Resources/images/switch_on.png</file>
+        <file>Resources/images/PushButton/hover.png</file>
+        <file>Resources/images/PushButton/normal.png</file>
+        <file>Resources/images/PushButton/pressed.png</file>
+    </qresource>
+</RCC>

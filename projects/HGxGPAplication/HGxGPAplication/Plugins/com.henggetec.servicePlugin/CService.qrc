@@ -1,0 +1,50 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/images/bendifuwu.png</file>
+        <file>Resources/images/gengxin.png</file>
+        <file>Resources/images/gengxinhover.png</file>
+        <file>Resources/images/OGC.png</file>
+        <file>Resources/images/OGCSmall.png</file>
+        <file>Resources/images/shujuji.png</file>
+        <file>Resources/images/shujujismall.png</file>
+        <file>Resources/images/shujuji_duankai.png</file>
+        <file>Resources/images/normal.png</file>
+        <file>Resources/images/Tile.png</file>
+        <file>Resources/images/Tilesmall.png</file>
+        <file>Resources/images/tuceng.png</file>
+        <file>Resources/images/tucengduankai.png</file>
+        <file>Resources/images/wenjianjia.png</file>
+        <file>Resources/images/wenjianjiaduankai.png</file>
+        <file>Resources/images/delete.png</file>
+        <file>Resources/images/delete_hover.png</file>
+        <file>Resources/images/lianjie.png</file>
+        <file>Resources/images/lianjie_hover.png</file>
+        <file>Resources/images/shouqi.png</file>
+        <file>Resources/images/shouqi_hover.png</file>
+        <file>Resources/images/zhankai.png</file>
+        <file>Resources/images/zhankai_hover.png</file>
+        <file>Resources/images/checked_disabled.png</file>
+        <file>Resources/images/checked_hover.png</file>
+        <file>Resources/images/checked_normal.png</file>
+        <file>Resources/images/disabled.png</file>
+        <file>Resources/images/hover.png</file>
+        <file>Resources/images/drag.png</file>
+        <file>Resources/images/toolservice_info.png</file>
+        <file>Resources/images/toolservice_info_s.png</file>
+        <file>Resources/images/bgImage.png</file>
+        <file>Resources/images/gengxin_press.png</file>
+        <file>Resources/images/shouqi_press.png</file>
+        <file>Resources/images/zhankai_press.png</file>
+        <file>Resources/images/delete_press.png</file>
+        <file>Resources/images/tianjia.png</file>
+        <file>Resources/images/tianjia_normal.png</file>
+        <file>Resources/images/tianjia_hover.png</file>
+        <file>Resources/images/fuwu_hover.png</file>
+        <file>Resources/images/fuwu_normal.png</file>
+        <file>Resources/images/fuwu_press.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>Resources/qss/CServerTreeView.css</file>
+        <file>Resources/qss/LayerSelect.css</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,28 @@
+﻿<FreeXSim>
+	<SimInfo>
+		<SceneName name="XXX作战"/>
+		<SimTime referTime="2020/12/25 12:00:00" timeLen="700"/>
+	</SimInfo>
+	<SceneObj>
+		<ObjFile filePath="RedSimObj.xml"/>
+		<ObjFile filePath="BlueSimObj.xml"/>
+		<ObjFile filePath="BlueSimObj_Add.xml"/>
+		<ObjFile filePath="RedSimObj_Add.xml"/>
+	</SceneObj>
+	
+	<!--事件数据-->
+	<EnventInfo filePath="EnventInfo.txt"/>
+	<!--视点数据-->
+	<ViewInfo filePath="ViewInfo.txt" />
+	<!--字幕提示数据-->
+	<ScreenWord filePath="ScreenWord.txt"/>
+	<!--击中命令-->
+	<HitData filePath="HitData.txt"/>
+	<!--销毁命令-->
+	<DestryData filePath="DestryData.txt"/>
+	<!--瞄准命令-->
+	<AimData filePath="AimData.txt"/>
+	
+	<AirSpaceData filePath="AirSpaceSector.txt"/>
+	
+</FreeXSim>

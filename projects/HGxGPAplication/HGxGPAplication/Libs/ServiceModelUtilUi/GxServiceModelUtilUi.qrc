@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/images/bendifuwu.png</file>
+        <file>Resources/images/OGC.png</file>
+        <file>Resources/images/OGCSmall.png</file>
+        <file>Resources/images/shujuji.png</file>
+        <file>Resources/images/shujuji_duankai.png</file>
+        <file>Resources/images/shujujismall.png</file>
+        <file>Resources/images/Tile.png</file>
+        <file>Resources/images/Tilesmall.png</file>
+        <file>Resources/images/wenjianjia.png</file>
+        <file>Resources/images/wenjianjiaduankai.png</file>
+        <file>Resources/images/tuceng.png</file>
+        <file>Resources/images/tucengduankai.png</file>
+    </qresource>
+</RCC>

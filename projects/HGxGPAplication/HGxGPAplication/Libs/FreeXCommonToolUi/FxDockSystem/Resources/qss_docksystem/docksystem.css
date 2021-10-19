@@ -1,0 +1,35 @@
+CToolBaseWindow
+{
+	background: transparent;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	outline: 0px;
+	border: none;
+	background-color: #2a2a2a;
+}
+CToolBaseWindow #fx_tool_window_header
+{
+	background-color: #2a2a2a;
+}
+CToolBaseWindow #fx_dock_tool_title_label
+{
+	background-color: #333333;
+	color: #ffffff;
+	border-right: 1px solid #232323;
+	padding-left: 9px;
+	padding-right: 10px;
+	font-size: 13px;
+}
+CToolBaseWindow #fx_dock_tool_operate_btn
+{
+	min-width: 15px;
+	min-height: 10px;
+	max-width: 15px;
+	max-height: 10px;
+	background-color: #2a2a2a;
+	border-image: url(:/images_docksystem/Resources/images_docksystem/button/operate.png);
+}
+CToolBaseWindow #fx_dock_tool_operate_btn:hover
+{
+	border-image: url(:/images_docksystem/Resources/images_docksystem/button/operate_h.png);
+}

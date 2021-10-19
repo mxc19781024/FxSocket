@@ -1,0 +1,49 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Resources/images/h_normal.png</file>
+        <file>Resources/images/line_hor.png</file>
+        <file>Resources/images/lineEdt_hover.png</file>
+        <file>Resources/images/lineEdt_normal.png</file>
+        <file>Resources/images/lineEdt_pressed.png</file>
+        <file>Resources/images/mainBack.png</file>
+        <file>Resources/images/reset_hover.png</file>
+        <file>Resources/images/reset_normal.png</file>
+        <file>Resources/images/reset_pressed.png</file>
+        <file>Resources/images/shadowAttr.png</file>
+        <file>Resources/images/slowdown_hover.png</file>
+        <file>Resources/images/slowdown_normal.png</file>
+        <file>Resources/images/slowdown_pressed.png</file>
+        <file>Resources/images/speedup_hover.png</file>
+        <file>Resources/images/speedup_normal.png</file>
+        <file>Resources/images/speedup_pressed.png</file>
+        <file>Resources/images/sunAttr.png</file>
+        <file>Resources/images/switch_hover.png</file>
+        <file>Resources/images/switch_off.png</file>
+        <file>Resources/images/switch_on.png</file>
+        <file>Resources/images/timeAttr.png</file>
+        <file>Resources/images/velBack.png</file>
+        <file>Resources/images/yu.png</file>
+        <file>Resources/images/xue.png</file>
+        <file>Resources/images/wu.png</file>
+        <file>Resources/images/yuntu.png</file>
+        <file>Resources/images/haiyang.png</file>
+        <file>Resources/images/func_environment.png</file>
+        <file>Resources/images/func_environment_s.png</file>
+        <file>Resources/images/SpinBox/arrow_down.png</file>
+        <file>Resources/images/SpinBox/arrow_down_pressed.png</file>
+        <file>Resources/images/SpinBox/arrow_up.png</file>
+        <file>Resources/images/SpinBox/arrow_up_pressed.png</file>
+        <file>Resources/images/setting.png</file>
+        <file>Resources/images/setting_hover.png</file>
+        <file>Resources/images/setting_normal.png</file>
+        <file>Resources/images/setting_pressed.png</file>
+        <file>Resources/images/daqi.png</file>
+        <file>Resources/images/taiyang.png</file>
+        <file>Resources/images/xingchen.png</file>
+        <file>Resources/images/xuanyun.png</file>
+        <file>Resources/images/yingyin.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>Resources/qss/freex_earth_effect_ui.css</file>
+    </qresource>
+</RCC>

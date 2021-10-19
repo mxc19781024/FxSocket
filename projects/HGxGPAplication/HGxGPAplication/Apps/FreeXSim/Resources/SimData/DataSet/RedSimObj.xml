@@ -1,0 +1,588 @@
+﻿<FreeXSim>
+	<!--1-红方 2-蓝方 3-不明-->
+	<!--1-海上装备 2-陆地装备 3-空中装备-->
+	<!-- 1-飞机 2-坦克 3-导弹发射车 4-导弹 5-航母 6-护卫舰-->
+	<SceneObj>
+<!--红方飞机-->
+		<Obj parentId="0" id="1" camp="1" spaceType="3" equType="1" commuState="0" name="Su-27">
+			<!--初始位置姿态-->
+			<Position lon="39.15270615" lat="45.02918243" alt="36.18999863"/>
+			<Posture az="47.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="330.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="330.98001099" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Air+FixedWingRed1.txt"/>
+			<!--传感器信息-->
+			<Senors num="0">
+				<Senor senorID="1" azStartAngle="-40" azEndAngle="40" pitchStartAngle="-10" pitchEndAngle="10" radius="10000" state="1" prefer="1" beamNum="0" period="5">
+					<Beam beamId="1" horWidth="2" verWidth="2" azAngle="0" pitchAngle="0"/>
+					<!--传感器状态改变时间段1-雷达开机 2-雷达关机 3-雷达故障 -->
+					<States>
+						<TimeSeg startTime="0" endTime="100" state="1"/>
+						<TimeSeg startTime="101" endTime="120" state="2"/>
+						<TimeSeg startTime="121" endTime="200" state="1"/>
+						<TimeSeg startTime="201" endTime="230" state="2"/>
+						<TimeSeg startTime="231" endTime="330.98001099" state="1"/>
+					</States>
+				</Senor>
+			<!--雷达侦测/跟踪数据-->
+			<!--DetectData filePath="1_Detect.txt"/-->
+			<!--相关雷达及雷达波束数据状态-->
+			<!--SenorData filePath="1_SENOR.txt" /-->
+			</Senors>
+		</Obj>
+		
+		<Obj parentId="0" id="2" camp="1" spaceType="3" equType="1" commuState="0" name="Su-27_1">
+			<!--初始位置姿态-->
+			<Position lon="39.15266800" lat="45.02891159" alt="36.20999908"/>
+			<Posture az="47.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="334.66000366"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="334.66000366" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Air+FixedWingRed2.txt"/>
+			<!--传感器信息-->
+			<Senors num="1">
+				<Senor senorID="1" azStartAngle="-30" azEndAngle="30" pitchStartAngle="-10" pitchEndAngle="10" radius="8000" state="1" prefer="1" beamNum="0" period="5">
+					<Beam beamId="1" horWidth="3" verWidth="2" azAngle="0" pitchAngle="0"/>
+					<!--传感器状态改变时间段-->
+					<States>
+						<TimeSeg startTime="0" endTime="200" state="2"/>
+						<TimeSeg startTime="201" endTime="210" state="1"/>
+						<TimeSeg startTime="211" endTime="230" state="1"/>
+						<TimeSeg startTime="231" endTime="250" state="2"/>
+						<TimeSeg startTime="251" endTime="334" state="1"/>
+					</States>
+				</Senor>
+			</Senors>
+		</Obj>
+		
+		<Obj parentId="0" id="3" camp="1" spaceType="3" equType="1" commuState="0" name="A-50">
+			<!--初始位置姿态-->
+			<Position lon="36.40134048" lat="45.51593399" alt="12000"/>
+			<Posture az="35.20000076" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32000732"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="698" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Air+FixedWingRed3.txt"/>
+			<!--传感器信息-->
+			<Senors num="1">
+				<Senor senorID="1" azStartAngle="-40" azEndAngle="40" pitchStartAngle="-10" pitchEndAngle="10" radius="8000" state="1" prefer="1" beamNum="0" period="5">
+					<!--传感器状态改变时间段-->
+					<States>
+						<TimeSeg startTime="0" endTime="50" state="2"/>
+						<TimeSeg startTime="51" endTime="200" state="1"/>
+						<TimeSeg startTime="201" endTime="230" state="2"/>
+						<TimeSeg startTime="231" endTime="500" state="1"/>
+						<TimeSeg startTime="501" endTime="550" state="2"/>
+						<TimeSeg startTime="551" endTime="698" state="1"/>
+					</States>
+				</Senor>
+			<!--雷达侦测/跟踪数据-->
+			<!--DetectData filePath="3_Detect.txt"/-->
+			<!--相关雷达及雷达波束数据状态-->
+			<!--SenorData filePath="3_SENOR.txt" /-->
+			</Senors>
+		</Obj>		
+		
+		<Obj parentId="0" id="4" camp="1" spaceType="3" equType="1" commuState="0" name="MiG-29S_1" comPridId="0">
+			<!--初始位置姿态-->
+			<Position lon="38.96449661" lat="45.08152008" alt="31.60000038"/>
+			<Posture az="267.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0.001" endTime="190.22000122"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="331" state="0"/>
+			</Commus>
+			<OffSet px="0" py="0" pz="0" rx="0" ry="0" rz="0"/>
+			<SubInfos subNum="2">
+				<Sub subId="142" level="1" sepTime="151.58"/>
+				<Sub subId="180" level="2" sepTime="176.92"/>
+			</SubInfos>
+			<!--航迹数据-->
+			<TrackData filePath="Air+FixedWingRed4.txt"/>
+		</Obj>	
+		
+		<Obj parentId="0" id="5" camp="1" spaceType="3" equType="1" commuState="0" name="MiG-29S_2">
+			<!--初始位置姿态-->
+			<Position lon="38.96478271" lat="45.08171082" alt="31.60000038"/>
+			<Posture az="267.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="254.66000366"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="254" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Air+FixedWingRed5.txt"/>
+			<!--传感器信息-->
+			<Senors num="1">
+				<Senor senorID="1" azStartAngle="-20" azEndAngle="20" pitchStartAngle="-10" pitchEndAngle="10" radius="6000" state="1" prefer="1" beamNum="1" period="5">
+					<Beam beamId="1" horWidth="3" verWidth="3" azAngle="0" pitchAngle="0"/>
+					<!--传感器状态改变时间段-->
+					<States>
+						<TimeSeg startTime="0" endTime="10" state="2"/>
+						<TimeSeg startTime="101" endTime="254" state="1"/>
+					</States>
+				</Senor>
+			<!--雷达侦测/跟踪数据-->
+			<DetectData filePath="5_Detect.txt"/>
+			<!--相关雷达及雷达波束数据状态-->
+			<SenorData filePath="5_SENOR.txt" />
+			</Senors>
+		</Obj>	
+		
+		<Obj parentId="0" id="6" camp="1" spaceType="3" equType="1" commuState="0" name="MiG-23MLD_1">
+			<!--初始位置姿态-->
+			<Position lon="40.05948639" lat="44.67850113" alt="182.17999268"/>
+			<Posture az="339.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32000732"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="698" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Air+FixedWingRed6.txt"/>
+		</Obj>	
+		
+		<Obj parentId="0" id="7" camp="1" spaceType="3" equType="1" commuState="0" name="MiG-23MLD_2">
+			<!--初始位置姿态-->
+			<Position lon="40.05924225" lat="44.67845154" alt="182.17999268"/>
+			<Posture az="339.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32000732"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="698" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Air+FixedWingRed7.txt"/>
+		</Obj>	
+		
+		<Obj parentId="0" id="8" camp="1" spaceType="3" equType="1" commuState="0" name="IL-76MD">
+			<!--初始位置姿态-->
+			<Position lon="39.29021454" lat="45.21878815" alt="150.00000000"/>
+			<Posture az="125.69999695" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32000732"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="698" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Air+FixedWingRed8.txt"/>
+			<!--传感器信息-->
+			<Senors num="1">
+				<Senor senorID="1" azStartAngle="-30" azEndAngle="30" pitchStartAngle="-8" pitchEndAngle="8" radius="10000" state="1" prefer="1" beamNum="1" period="5">
+					<Beam beamId="1" horWidth="2" verWidth="2" azAngle="0" pitchAngle="0"/>
+					<!--传感器状态改变时间段-->
+					<States>
+						<TimeSeg startTime="0" endTime="100" state="1"/>
+						<TimeSeg startTime="101" endTime="698" state="2"/>
+					</States>
+				</Senor>
+			<!--雷达侦测/跟踪数据-->
+			<!--DetectData filePath="8_Detect.txt"/-->
+			<!--相关雷达及雷达波束数据状态-->
+			<!--SenorData filePath="8_SENOR.txt" /-->
+			</Senors>
+		</Obj>			
+<!--红方飞机-->	
+<!--红方导弹-->	
+		<Obj parentId="0" id="131" camp="1" spaceType="3" equType="4" commuState="0" name="R-27ET">
+			<!--初始位置姿态-->
+			<Position lon="39.19123077" lat="45.06721497" alt="1844.60998535"/>
+			<Posture az="128.89999390" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="141.83999634" endTime="185.24000549"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="0"/>
+				<TimeSeg startTime="201" endTime="185" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed131.txt"/>
+		</Obj>	
+		
+		<Obj parentId="0" id="142" camp="1" spaceType="3" equType="4" commuState="0" name="R-27R" comPridId="4" sepLevel="1">
+			<!--初始位置姿态-->
+			<Position lon="39.07341766" lat="44.93157196" alt="462.60998535"/>
+			<Posture az="141.10000610" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="185.35000610"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="185" state="0"/>
+			</Commus>
+			<OffSet px="0" py="0" pz="0" rx="0" ry="0" rz="0"/>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed142.txt"/>
+		</Obj>		
+		
+		<Obj parentId="0" id="156" camp="1" spaceType="3" equType="4" commuState="0" name="R-27ER_1">
+			<!--初始位置姿态-->
+			<Position lon="39.22883224" lat="45.04531860" alt="1582.36999512"/>
+			<Posture az="93.69999695" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="160.92999268" endTime="186.08999634"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="186" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed156.txt"/>
+		</Obj>	
+		<Obj parentId="0" id="160" camp="1" spaceType="3" equType="4" commuState="0" name="R-27ER_2">
+			<!--初始位置姿态-->
+			<Position lon="39.24869156" lat="45.05008316" alt="1447.15002441"/>
+			<Posture az="99.19999695" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="162.86999512" endTime="185.00000000"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="185" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed160.txt"/>
+		</Obj>	
+		
+		<Obj parentId="0" id="176" camp="1" spaceType="3" equType="4" commuState="0" name="R-27ER_3">
+			<!--初始位置姿态-->
+			<Position lon="39.28109741" lat="45.05580902" alt="1336.71997070"/>
+			<Posture az="68.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="174.53999329" endTime="197.57000732"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="197" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed176.txt"/>
+		</Obj>	
+		
+		<Obj parentId="0" id="180" camp="1" spaceType="3" equType="4" commuState="0" name="R-73" comPridId="4" sepLevel="2">
+			<!--初始位置姿态-->
+			<Position lon="39.12365723" lat="44.93010330" alt="184.47000122"/>
+			<Posture az="132.39999390" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="178.82000732"/>
+			<Commus>
+				<TimeSeg startTime="176" endTime="178" state="0"/>
+			</Commus>
+			<OffSet px="0" py="0" pz="0" rx="0" ry="0" rz="0"/>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed180.txt"/>
+		</Obj>	
+		
+		<Obj parentId="0" id="198" camp="1" spaceType="3" equType="4" commuState="0" name="R-27ER_4">
+			<!--初始位置姿态-->
+			<Position lon="39.34166718" lat="45.04128265" alt="1180.93994141"/>
+			<Posture az="159.69999695" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="197.00999451" endTime="204.50999451"/>
+			<Commus>
+				<TimeSeg startTime="197" endTime="204" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed198.txt"/>
+		</Obj>	
+		
+		<Obj parentId="0" id="203" camp="1" spaceType="3" equType="4" commuState="0" name="R-73_2">
+			<!--初始位置姿态-->
+			<Position lon="39.07603836" lat="44.79896545" alt="579.40997314"/>
+			<Posture az="51.90000153" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="208.05000305" endTime="214.10000610"/>
+			<Commus>
+				<TimeSeg startTime="208" endTime="214" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed203.txt"/>
+		</Obj>
+		
+		<Obj parentId="0" id="216" camp="1" spaceType="3" equType="4" commuState="0" name="R-27R_2">
+			<!--初始位置姿态-->
+			<Position lon="39.06512070" lat="44.81386566" alt="720.34002686"/>
+			<Posture az="217.60000610" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="226.86999512" endTime="252.75000000"/>
+			<Commus>
+				<TimeSeg startTime="226.86999512" endTime="252.75000000" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed216.txt"/>
+		</Obj>	
+		<Obj parentId="0" id="234" camp="1" spaceType="3" equType="4" commuState="0" name="R-73_3">
+			<!--初始位置姿态-->
+			<Position lon="39.02630234" lat="44.79138947" alt="578.46997070"/>
+			<Posture az="233.50000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="244.60000610" endTime="250.38999939"/>
+			<Commus>
+				<TimeSeg startTime="244.60000610" endTime="250.38999939" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed234.txt"/>
+		</Obj>	
+		<Obj parentId="0" id="259" camp="1" spaceType="3" equType="4" commuState="0" name="R-27ER_5">
+			<!--初始位置姿态-->
+			<Position lon="39.22975922" lat="44.90997314" alt="912.69000244"/>
+			<Posture az="222.10000610" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="258.41000366" endTime="331"/>
+			<Commus>
+				<TimeSeg startTime="258.41000366" endTime="331" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed259.txt"/>
+		</Obj>	
+		<Obj parentId="0" id="272" camp="1" spaceType="3" equType="4" commuState="0" name="R-27ER_6">
+			<!--初始位置姿态-->
+			<Position lon="39.23044968" lat="44.93803787" alt="1091.91003418"/>
+			<Posture az="214.89999390" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="277.26000977" endTime="326.17999268"/>
+			<Commus>
+				<TimeSeg startTime="277.26000977" endTime="326.17999268" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed272.txt"/>
+		</Obj>		
+		
+		<Obj parentId="0" id="336" camp="1" spaceType="3" equType="4" commuState="0" name="R-27ET_1">
+			<!--初始位置姿态-->
+			<Position lon="39.15665054" lat="44.88402176" alt="767.20001221"/>
+			<Posture az="233.80000305" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="311.32998657" endTime="331"/>
+			<Commus>
+				<TimeSeg startTime="311.32998657" endTime="331" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed336.txt"/>
+		</Obj>		
+		
+		<Obj parentId="0" id="348" camp="1" spaceType="3" equType="4" commuState="0" name="R-27ER_7">
+			<!--初始位置姿态-->
+			<Position lon="39.11972427" lat="44.87086868" alt="634.66998291"/>
+			<Posture az="224.50000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="322.38000488" endTime="334.66000366"/>
+			<Commus>
+				<TimeSeg startTime="322.38000488" endTime="334.66000366" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed348.txt"/>
+		</Obj>		
+		
+		<Obj parentId="0" id="108" camp="1" spaceType="3" equType="4" commuState="0" name="3M9M_1">
+			<!--初始位置姿态-->
+			<Position lon="39.18798828" lat="45.05097198" alt="39.88999939"/>
+			<Posture az="127.50000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="124.11000061" endTime="154.21000671"/>
+			<Commus>
+				<TimeSeg startTime="124.11000061" endTime="154.21000671" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed108.txt"/>
+		</Obj>
+		
+		<Obj parentId="0" id="173" camp="1" spaceType="3" equType="4" commuState="0" name="3M9M_2">
+			<!--初始位置姿态-->
+			<Position lon="39.18799973" lat="45.05097580" alt="39.95999908"/>
+			<Posture az="130.60000610" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="170.44999695" endTime="198.16999817"/>
+			<Commus>
+				<TimeSeg startTime="170.44999695" endTime="198.16999817" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed173.txt"/>
+		</Obj>		
+		
+		<Obj parentId="0" id="384" camp="1" spaceType="3" equType="4" commuState="0" name="3M9M_3">
+			<!--初始位置姿态-->
+			<Position lon="39.18799973" lat="45.05097198" alt="39.90000153"/>
+			<Posture az="184.89999390" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="377.00000000" endTime="405.10000610"/>
+			<Commus>
+				<TimeSeg startTime="377.00000000" endTime="405.10000610" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed384.txt"/>
+		</Obj>	
+		
+		<Obj parentId="0" id="411" camp="1" spaceType="3" equType="4" commuState="0" name="3M9M_4">
+			<!--初始位置姿态-->
+			<Position lon="39.18700027" lat="45.05077362" alt="39.63000107"/>
+			<Posture az="193.60000610" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="421.70001221" endTime="441.95999146"/>
+			<Commus>
+				<TimeSeg startTime="421.70001221" endTime="441.95999146" state="0"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Weapon+MissileRed411.txt"/>
+		</Obj>			
+<!--红方导弹-->	
+<!--地面装备-->
+		<Obj parentId="9" id="10" camp="1" spaceType="2" equType="3" commuState="1" name="Kub_LN">
+			<!--初始位置姿态-->
+			<Position lon="39.18799210" lat="45.05097580" alt="28"/>
+			<Posture az="339.00000000" pitch="12" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="200" state="1"/>
+				<TimeSeg startTime="201" endTime="220" state="2"/>
+				<TimeSeg startTime="221" endTime="250" state="1"/>
+				<TimeSeg startTime="251" endTime="270" state="2"/>
+				<TimeSeg startTime="271" endTime="698.32" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Ground+AntiAircraftRed10.txt"/>
+		</Obj>
+		
+		<Obj parentId="9" id="15" camp="1" spaceType="2" equType="2" commuState="1" name="BTR-D">
+			<!--初始位置姿态-->
+			<Position lon="39.18743134" lat="45.05197906" alt="50"/>
+			<Posture az="69.00000000" pitch="5" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="20" state="2"/>
+				<TimeSeg startTime="221" endTime="331" state="1"/>
+				<TimeSeg startTime="332" endTime="350" state="2"/>
+				<TimeSeg startTime="351" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Ground+Heavy+Armor+Vehicle+TankRed15.txt"/>
+		</Obj>		
+		
+		<Obj parentId="9" id="14" camp="1" spaceType="2" equType="2" commuState="1" name="Ural-375-PBU">
+			<!--初始位置姿态-->
+			<Position lon="39.18670273" lat="45.05182648" alt="50"/>
+			<Posture az="249.00000000" pitch="8" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="20" state="1"/>
+				<TimeSeg startTime="221" endTime="331" state="2"/>
+				<TimeSeg startTime="332" endTime="350" state="1"/>
+				<TimeSeg startTime="351" endTime="360" state="2"/>
+				<TimeSeg startTime="361" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Ground+Heavy+Armor+Vehicle+TankRed14.txt"/>
+		</Obj>		
+		
+		<Obj parentId="9" id="11" camp="1" spaceType="2" equType="3" commuState="1" name="Kub_LN_1">
+			<!--初始位置姿态-->
+			<Position lon="39.18701935" lat="45.05077362" alt="36"/>
+			<Posture az="339.00000000" pitch="5" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="20" state="1"/>
+				<TimeSeg startTime="221" endTime="331" state="2"/>
+				<TimeSeg startTime="332" endTime="350" state="1"/>
+				<TimeSeg startTime="351" endTime="360" state="2"/>
+				<TimeSeg startTime="361" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Ground+AntiAircraftRed11.txt"/>
+		</Obj>		
+		
+		<Obj parentId="9" id="12" camp="1" spaceType="2" equType="3" commuState="1" name="Kub_LN_2">
+			<!--初始位置姿态-->
+			<Position lon="39.18628693" lat="45.05155182" alt="46"/>
+			<Posture az="339.00000000" pitch="5" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="20" state="1"/>
+				<TimeSeg startTime="221" endTime="331" state="2"/>
+				<TimeSeg startTime="332" endTime="350" state="1"/>
+				<TimeSeg startTime="351" endTime="360" state="2"/>
+				<TimeSeg startTime="361" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Ground+AntiAircraftRed12.txt"/>
+		</Obj>	
+		
+		<Obj parentId="9" id="13" camp="1" spaceType="2" equType="3" commuState="1" name="Kub_LN_3">
+			<!--初始位置姿态-->
+			<Position lon="39.18799210" lat="45.05191040" alt="49"/>
+			<Posture az="339.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="20" state="2"/>
+				<TimeSeg startTime="221" endTime="331" state="1"/>
+				<TimeSeg startTime="332" endTime="350" state="1"/>
+				<TimeSeg startTime="351" endTime="360" state="2"/>
+				<TimeSeg startTime="361" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Ground+AntiAircraftRed13.txt"/>
+			<!--传感器信息-->
+			<Senors num="1">
+				<Senor senorID="1" azStartAngle="0" azEndAngle="360" pitchStartAngle="0" pitchEndAngle="90" radius="100000" state="1" prefer="1" beamNum="0" period="5">
+					<Beam beamId="1" horWidth="10" verWidth="10" azAngle="30" pitchAngle="30"/>
+					<!--传感器状态改变时间段-->
+					<States>
+				<TimeSeg startTime="0" endTime="20" state="1"/>
+				<TimeSeg startTime="221" endTime="331" state="2"/>
+				<TimeSeg startTime="332" endTime="350" state="1"/>
+				<TimeSeg startTime="351" endTime="360" state="2"/>
+				<TimeSeg startTime="361" endTime="698" state="1"/>
+					</States>
+				</Senor>
+			</Senors>
+		</Obj>	
+		
+		<Obj parentId="22000" id="9" camp="1" spaceType="2" equType="3" commuState="1" name="Kub_STR">
+			<!--初始位置姿态-->
+			<Position lon="39.18732452" lat="45.05130386" alt="43"/>
+			<Posture az="159.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="20" state="2"/>
+				<TimeSeg startTime="221" endTime="331" state="1"/>
+				<TimeSeg startTime="332" endTime="350" state="1"/>
+				<TimeSeg startTime="351" endTime="360" state="2"/>
+				<TimeSeg startTime="361" endTime="698" state="1"/>
+			</Commus>
+			<!--航迹数据-->
+			<TrackData filePath="Ground+AntiAircraftRed9.txt"/>
+			<!--传感器信息-->
+			<Senors num="1">
+				<Senor senorID="1" azStartAngle="0" azEndAngle="360" pitchStartAngle="0" pitchEndAngle="90" radius="120000" state="1" prefer="1" beamNum="0" period="5">
+					<Beam beamId="1" horWidth="5" verWidth="5" azAngle="30" pitchAngle="30"/>
+					<!--传感器状态改变时间段-->
+					<States>
+						<TimeSeg startTime="0" endTime="100" state="2"/>
+						<TimeSeg startTime="101" endTime="698" state="1"/>
+					</States>
+				</Senor>
+			<!--雷达侦测/跟踪数据-->
+			<DetectData filePath="9_Detect.txt"/>
+			<!--相关雷达及雷达波束数据状态-->
+			<!--SenorData filePath="9_SENOR.txt" /-->
+			</Senors>
+		</Obj>		
+<!--地面装备-->
+	</SceneObj>
+</FreeXSim>

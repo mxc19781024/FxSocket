@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/qss_messagebox">
+        <file>Resources/qss_messagebox/messagebox.css</file>
+        <file>Resources/qss_messagebox/checkmessagebox.css</file>
+    </qresource>
+    <qresource prefix="/images_messagebox">
+        <file>Resources/images_messagebox/warning.png</file>
+        <file>Resources/images_messagebox/bg.png</file>
+        <file>Resources/images_messagebox/error.png</file>
+        <file>Resources/images_messagebox/hardware.png</file>
+    </qresource>
+</RCC>

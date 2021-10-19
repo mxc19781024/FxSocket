@@ -1,0 +1,28 @@
+/* Topwidget begin */
+CXGisTopWidget #platform_name
+{
+	color: rgba(255,255,255,255);
+	font-family: "Microsoft YaHei";
+	font-size:18px;
+}
+
+CXGisTopWidget #logo
+{
+	border-image: url(:/images_mainwindow/Resources/images_mainwindow/logo.png);
+}
+
+CXGisTopWidget #exit
+{
+	border-image: url(:/images_mainwindow/Resources/images_mainwindow/guanbi.png);
+}
+
+CXGisTopWidget #exit:hover
+{
+	border-image: url(:/images_mainwindow/Resources/images_mainwindow/guanbi.png);
+}
+
+CXGisTopWidget #exit:pressed
+{
+	border-image: url(:/images_mainwindow/Resources/images_mainwindow/guanbi.png);
+}
+/* Topwidget end */

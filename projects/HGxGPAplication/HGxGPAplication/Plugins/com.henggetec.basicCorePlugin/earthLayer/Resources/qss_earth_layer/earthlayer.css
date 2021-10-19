@@ -1,0 +1,62 @@
+.CEarthLayerWidget
+{
+	background-color: #333333;
+}
+CEarthLayerWidget QPushButton
+{
+	color: #999999;
+}
+
+CEarthLayerWidget #pAddImgLayerBtn, CEarthLayerWidget #pAddEleLayerBtn, CEarthLayerWidget #pAddVecLayerBtn, CEarthLayerWidget #pAddSeaLayerBtn
+{
+	background-repeat: no-repeat;
+	background-position:left;
+
+	font-family:"Microsoft YaHei"; 
+	font-size:12px;	
+	text-align: right;
+	background-image:url(:/Resources/images_earth_layer/add.png);
+	color: #999999;
+}
+
+CEarthLayerWidget #pAddImgLayerBtn:hover, 
+CEarthLayerWidget #pAddEleLayerBtn:hover, 
+CEarthLayerWidget #pAddVecLayerBtn:hover,
+CEarthLayerWidget #pAddSeaLayerBtn:hover
+{
+	background-image:url(:/Resources/images_earth_layer/add_hover.png);
+	color: #ffffff;
+}
+
+CEarthLayerWidget #pAddImgLayerBtn:pressed,
+CEarthLayerWidget #pAddEleLayerBtn:pressed, 
+CEarthLayerWidget #pAddVecLayerBtn:pressed,
+CEarthLayerWidget #pAddSeaLayerBtn:pressed
+{
+	background-image:url(:/Resources/images_earth_layer/add_pressed.png);
+	color: #3b7cff;
+}
+
+CEarthLayerWidget #pDelLayerBtn
+{
+	background-repeat: no-repeat;
+	background-position:left;
+
+	font-family:"Microsoft YaHei"; 
+	font-size:12px;	
+	text-align: right;
+	background-image:url(:/Resources/images_earth_layer/del.png);
+	color: #999999;
+}
+
+CEarthLayerWidget #pDelLayerBtn:hover
+{
+	background-image:url(:/Resources/images_earth_layer/del_hover.png);
+	color: #ffffff;
+}
+
+CEarthLayerWidget #pDelLayerBtn:pressed
+{
+	background-image:url(:/Resources/images_earth_layer/del_pressed.png);
+	color: #3b7cff;
+}

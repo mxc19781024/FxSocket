@@ -1,0 +1,27 @@
+CToast
+{
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+	background: transparent;
+}
+CToast #fx_toast_bg
+{
+	border-image: url(:/images_toast/Resources/images_toast/bg.png) 7 10 9 10;
+	border-width: 7 10 9 10;
+}
+CToast #fx_toast_title
+{
+	color: #3c7cff;
+}
+CToast #fx_toast_content
+{
+	color: #ffffff;
+}
+CToast QPushButton
+{
+	border-image: url(:/images_toast/Resources/images_toast/close_p.png);
+}
+CToast QPushButton:pressed
+{
+	border-image: url(:/images_toast/Resources/images_toast/close.png);
+}

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/qss_docksystem">
+        <file>Resources/qss_docksystem/docksystem.css</file>
+    </qresource>
+    <qresource prefix="/images_docksystem">
+        <file>Resources/images_docksystem/button/operate.png</file>
+        <file>Resources/images_docksystem/button/operate_h.png</file>
+    </qresource>
+</RCC>

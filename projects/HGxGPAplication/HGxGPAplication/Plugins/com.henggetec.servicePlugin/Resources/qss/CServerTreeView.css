@@ -1,0 +1,64 @@
+/*CServerTreeView*/
+CServerDataTree{background-color:#333333;}
+CServerDataTree QLabel{
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	color:#ffffff;	
+}
+
+CServerDataTree #pFlashTBtn{
+	border-image:url(:/Resources/images/gengxin.png)
+}
+CServerDataTree #pFlashTBtn:hover{
+	border-image:url(:/Resources/images/gengxinhover.png)
+}
+CServerDataTree #pFlashTBtn:pressed{
+	border-image:url(:/Resources/images/gengxin_press.png)
+}
+
+CServerDataTree #pCollapseTBtn{
+	border-image:url(:/Resources/images/shouqi.png)
+}
+CServerDataTree #pCollapseTBtn:hover{
+	border-image:url(:/Resources/images/shouqi_hover.png)
+}
+CServerDataTree #pCollapseTBtn:pressed{
+	border-image:url(:/Resources/images/shouqi_press.png)
+}
+
+CServerDataTree #pExpandTBtn{
+	border-image:url(:/Resources/images/zhankai.png)
+}
+CServerDataTree #pExpandTBtn:hover{
+	border-image:url(:/Resources/images/zhankai_hover.png)
+}
+CServerDataTree #pExpandTBtn:pressed{
+	border-image:url(:/Resources/images/zhankai_press.png)
+}
+
+CServerDataTree #pDeleteTBtn{
+	border-image:url(:/Resources/images/delete.png)
+}
+CServerDataTree #pDeleteTBtn:hover{
+	border-image:url(:/Resources/images/delete_hover.png)
+}
+CServerDataTree #pDeleteTBtn:pressed{
+	border-image:url(:/Resources/images/delete_press.png)
+}
+
+QMenu::item
+{
+    height: 25px;
+	padding: 0 5 0 20;
+}
+QMenu::icon
+{
+  padding: 0 5 0 5;
+}
+/*CServerTreeView*/
+
+
+
+
+
+

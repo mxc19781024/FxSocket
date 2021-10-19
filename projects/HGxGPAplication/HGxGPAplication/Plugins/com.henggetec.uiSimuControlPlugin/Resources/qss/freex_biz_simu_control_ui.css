@@ -1,0 +1,123 @@
+QSlider{
+	border-color: #bcbcbc;
+}
+QSlider::groove {
+	background-color: #343a42; 
+}
+QSlider::groove:horizontal{
+	border:0px solid #999999; 
+	height:6px; 
+	margin:0px 0; 
+	left:5px; 
+	right:5px;
+}
+QSlider::handle:horizontal{
+	border:0px; 
+	border-image: url(":/images/Resources/images/icon/h_normal.png"); 
+	width:40px;
+	margin:-16px -14px -16px -14px;
+}
+
+QSlider::sub-page:horizontal{ 
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #ff7a32, stop:0.25 #ff7a32, stop:0.5 #ff7a32, stop:1 #ff7a32);
+}
+
+CBizSimuCtrlWidget #frame
+{
+	border: 1px solid #222222;
+}
+
+CBizSimuCtrlWidget #scrollArea
+{
+	background-color: transparent;
+}
+
+CBizSimuCtrlWidget #UTCTimeLabel,CBizSimuCtrlWidget QDateTimeEdit
+{
+	/*color: #ffffff;*/
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #222222;
+	border: 1px solid #222222;
+	border-radius: 4px;
+}
+CBizSimuCtrlWidget #UTCTimeLabel:hover,CBizSimuCtrlWidget QDateTimeEdit:hover
+{
+	border: 1px solid #233245;
+}
+CBizSimuCtrlWidget #UTCTimeLabel:focus,CBizSimuCtrlWidget QDateTimeEdit:focus
+{
+	border: 1px solid #465b78;
+}
+/*CEffectsControl*/
+CBizSimuCtrlWidget QLabel,CBizSimuCtrlWidget QDateTimeEdit, CBizSimuCtrlWidget QDoubleSpinBox
+{
+	font-family:"Microsoft YaHei";
+	font-size:9pt;
+	color:#bfcad8;
+}
+
+CBizSimuCtrlWidget #StartPushBtn{ 
+	border-image: url(":/images/Resources/images/icon/normal-zantin.png") 5px; 
+}
+CBizSimuCtrlWidget #StartPushBtn:hover{ 
+	border-image: url(":/images/Resources/images/icon/hover-zantin.png") 5px; 
+}
+CBizSimuCtrlWidget #StartPushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/icon/selected-zantin.png") 5px; 
+}
+CBizSimuCtrlWidget #StartPushBtn:checked{ 
+	border-image: url(":/images/Resources/images/icon/normal_bofang.png") 5px; 
+}
+CBizSimuCtrlWidget #StartPushBtn:hover:checked{ 
+	border-image: url(":/images/Resources/images/icon/hover_bofang.png") 5px; 
+}
+CBizSimuCtrlWidget #StartPushBtn:pressed:checked{ 
+	border-image: url(":/images/Resources/images/icon/selected_bofang.png") 5px; 
+}
+CBizSimuCtrlWidget #StopPushBtn{ 
+	border-image: url(":/images/Resources/images/icon/normal_zantin.png") 5px; 
+}
+CBizSimuCtrlWidget #StopPushBtn:hover{ 
+	border-image: url(":/images/Resources/images/icon/hover_zantin.png") 5px; 
+}
+CBizSimuCtrlWidget #StopPushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/icon/selected_zantin.png") 5px; 
+}
+CBizSimuCtrlWidget #ReversePushBtn{ 
+	border-image: url(":/images/Resources/images/icon/normal_qiehuan.png") 5px; 
+}
+CBizSimuCtrlWidget #ReversePushBtn:hover{ 
+	border-image: url(":/images/Resources/images/icon/hover_qiehuan.png") 5px; 
+}
+CBizSimuCtrlWidget #ReversePushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/icon/selected_qiehuan.png") 5px; 
+}
+CBizSimuCtrlWidget #ReversePushBtn:checked{ 
+	border-image: url(":/images/Resources/images/icon/selected_qiehuan.png") 5px; 
+}
+CBizSimuCtrlWidget #AccPushBtn{ 
+	border-image: url(":/images/Resources/images/icon/normal_jia.png") 5px; 
+}
+CBizSimuCtrlWidget #AccPushBtn:hover{ 
+	border-image: url(":/images/Resources/images/icon/hover_jia.png") 5px; 
+}
+CBizSimuCtrlWidget #AccPushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/icon/selected_jia.png") 5px; 
+}
+CBizSimuCtrlWidget #DecPushBtn{ 
+	border-image: url(":/images/Resources/images/icon/normal_jian.png") 5px; 
+}
+CBizSimuCtrlWidget #DecPushBtn:hover{ 
+	border-image: url(":/images/Resources/images/icon/hover_jian.png") 5px; 
+}
+CBizSimuCtrlWidget #DecPushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/icon/selected_jian.png") 5px; 
+}
+CBizSimuCtrlWidget #SimuMulLabel{ 
+	border-image: url(":/images/Resources/images/icon/beishu.png") 5px; 
+}
+CBizSimuCtrlWidget #SimuTimeLabel{ 
+	border-image: url(":/images/Resources/images/icon/shijian.png") 5px; 
+}
+

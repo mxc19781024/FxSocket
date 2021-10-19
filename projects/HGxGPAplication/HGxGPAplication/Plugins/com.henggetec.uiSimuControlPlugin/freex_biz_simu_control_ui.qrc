@@ -1,0 +1,57 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Resources/images/icon/acc.png</file>
+        <file>Resources/images/icon/acc_hover.png</file>
+        <file>Resources/images/icon/acc_pressed.png</file>
+        <file>Resources/images/icon/dec.png</file>
+        <file>Resources/images/icon/dec_hover.png</file>
+        <file>Resources/images/icon/dec_pressed.png</file>
+        <file>Resources/images/icon/h_normal.png</file>
+        <file>Resources/images/icon/pause.png</file>
+        <file>Resources/images/icon/pause_hover.png</file>
+        <file>Resources/images/icon/pause_pressed.png</file>
+        <file>Resources/images/icon/start.png</file>
+        <file>Resources/images/icon/start_hover.png</file>
+        <file>Resources/images/icon/start_pressed.png</file>
+        <file>Resources/images/icon/stop.png</file>
+        <file>Resources/images/icon/stop_hover.png</file>
+        <file>Resources/images/icon/stop_pressed.png</file>
+        <file>Resources/images/icon/forward_hover.png</file>
+        <file>Resources/images/icon/forward_normal.png</file>
+        <file>Resources/images/icon/forward_pressed.png</file>
+        <file>Resources/images/icon/reverse_normal.png</file>
+        <file>Resources/images/icon/simu_s.png</file>
+        <file>Resources/images/icon/simu.png</file>
+        <file>Resources/images/switch_off.png</file>
+        <file>Resources/images/switch_on.png</file>
+        <file>Resources/images/accusationaction.png</file>
+        <file>Resources/images/time.png</file>
+        <file>Resources/images/icon/beishu.png</file>
+        <file>Resources/images/icon/hover_bofang.png</file>
+        <file>Resources/images/icon/hover_jia.png</file>
+        <file>Resources/images/icon/hover_jian.png</file>
+        <file>Resources/images/icon/hover_qiehuan.png</file>
+        <file>Resources/images/icon/hover_zantin.png</file>
+        <file>Resources/images/icon/normal_bofang.png</file>
+        <file>Resources/images/icon/normal_jia.png</file>
+        <file>Resources/images/icon/normal_jian.png</file>
+        <file>Resources/images/icon/normal_qiehuan.png</file>
+        <file>Resources/images/icon/normal_zantin.png</file>
+        <file>Resources/images/icon/selected_bofang.png</file>
+        <file>Resources/images/icon/selected_jia.png</file>
+        <file>Resources/images/icon/selected_jian.png</file>
+        <file>Resources/images/icon/selected_qiehuan.png</file>
+        <file>Resources/images/icon/selected_zantin.png</file>
+        <file>Resources/images/icon/shijian.png</file>
+        <file>Resources/images/icon/slider.png</file>
+        <file>Resources/images/icon/slider1.png</file>
+        <file>Resources/images/icon/data_time.png</file>
+        <file>Resources/images/icon/simu_mult.png</file>
+        <file>Resources/images/icon/hover-zantin.png</file>
+        <file>Resources/images/icon/normal-zantin.png</file>
+        <file>Resources/images/icon/selected-zantin.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Resources/qss/freex_biz_simu_control_ui.css</file>
+    </qresource>
+</RCC>

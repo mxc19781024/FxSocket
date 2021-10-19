@@ -1,0 +1,29 @@
+#widget{border-image: url(:/images_splash_screen/Resources/background.png);}
+
+*
+{
+	font-family:"Microsoft YaHei"; 
+	font-size:12px;	
+}
+
+#pLogoLbl
+{
+	border-image: url(:/images_splash_screen/Resources/logo.png);
+}
+
+#pHGLbl
+{
+	border-image: url(:/images_splash_screen/Resources/logo_hengge.png);
+}
+
+#pTextLbl
+{
+	color: #999999;
+}
+
+
+#pLoadLbl
+{
+	color: #ffffff;
+}
+

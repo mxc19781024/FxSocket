@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>resrc/images/arrow_close.png</file>
+        <file>resrc/images/arrow_open.png</file>
+        <file>resrc/images/branch_end.png</file>
+        <file>resrc/images/branch_more.png</file>
+        <file>resrc/images/checkbox_checked.png</file>
+        <file>resrc/images/checkbox_indeterminate.png</file>
+        <file>resrc/images/checkbox_unchecked.png</file>
+        <file>resrc/images/close_normal.png</file>
+        <file>resrc/images/close_selected.png</file>
+        <file>resrc/images/collaboration.png</file>
+        <file>resrc/images/fangzhenliebiao.png</file>
+        <file>resrc/images/heisi.png</file>
+        <file>resrc/images/hongse.png</file>
+        <file>resrc/images/icon_evaluation .png</file>
+        <file>resrc/images/icon_plan.png</file>
+        <file>resrc/images/kuang.png</file>
+        <file>resrc/images/load_scene.png</file>
+        <file>resrc/images/LoadData_hover.png</file>
+        <file>resrc/images/LoadData_normal.png</file>
+        <file>resrc/images/LoadData_selected.png</file>
+        <file>resrc/images/management.png</file>
+        <file>resrc/images/SceneControl.png</file>
+        <file>resrc/images/scrollbar_bg.png</file>
+        <file>resrc/images/shujujiazai.png</file>
+        <file>resrc/images/shujujiazai1.png</file>
+        <file>resrc/images/Simu_hover.png</file>
+        <file>resrc/images/Simu_normal.png</file>
+        <file>resrc/images/Simu_selected.png</file>
+        <file>resrc/images/train.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>resrc/qss/Scene_Control.css</file>
+    </qresource>
+</RCC>

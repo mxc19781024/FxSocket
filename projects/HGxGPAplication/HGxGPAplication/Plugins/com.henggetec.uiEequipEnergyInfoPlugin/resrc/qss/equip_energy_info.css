@@ -1,0 +1,26 @@
+﻿CEquipEnergyInfoWidget #background_frame{
+	border-image: url(":/img/resrc/images/beijing.png");
+}
+
+
+CEquipEnergyItemWidget #labelIndex{
+	border-image: url(":/img/resrc/images/shuzikuang.png");
+}
+CEquipEnergyItemWidget #NameFrame{
+	border-image: url(":/img/resrc/images/mingcheng.png");
+}
+CEquipEnergyItemWidget #label_energy{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyItemWidget #label_load{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyItemWidget #label_paraA{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyItemWidget #label_paraB{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyItemWidget #label_paraC{
+	color:rgba(255,255,255,143);
+}

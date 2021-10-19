@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Resources/images/browse_hover.png</file>
+        <file>Resources/images/browse_normal.png</file>
+        <file>Resources/images/browse_pressed.png</file>
+        <file>Resources/images/affirm.png</file>
+        <file>Resources/images/affirm_hover.png</file>
+        <file>Resources/images/affirm_pressed.png</file>
+        <file>Resources/images/back.png</file>
+        <file>Resources/images/back_hover.png</file>
+        <file>Resources/images/back_pressed.png</file>
+        <file>Resources/images/get.png</file>
+        <file>Resources/images/get_hover.png</file>
+        <file>Resources/images/get_pressed.png</file>
+        <file>Resources/images/background.png</file>
+        <file>Resources/images/quxiao.png</file>
+        <file>Resources/images/quxiaodianji.png</file>
+        <file>Resources/images/quxiaohover.png</file>
+        <file>Resources/images/save.png</file>
+        <file>Resources/images/save_hover.png</file>
+        <file>Resources/images/save_pressed.png</file>
+    </qresource>
+    <qresource prefix="/css">
+        <file>Resources/qss/ServerProUtils.css</file>
+    </qresource>
+</RCC>

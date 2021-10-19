@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/qss_map_layer/maplayer.css</file>
+        <file>Resources/qss_map_layer/pyramidCache.css</file>
+        <file>Resources/images_map_layer/add.png</file>
+        <file>Resources/images_map_layer/bottom.png</file>
+        <file>Resources/images_map_layer/bottom_h.png</file>
+        <file>Resources/images_map_layer/bottom_press.png</file>
+        <file>Resources/images_map_layer/del.png</file>
+        <file>Resources/images_map_layer/del_h.png</file>
+        <file>Resources/images_map_layer/del_press.png</file>
+        <file>Resources/images_map_layer/down.png</file>
+        <file>Resources/images_map_layer/down_h.png</file>
+        <file>Resources/images_map_layer/down_press.png</file>
+        <file>Resources/images_map_layer/guanbi.png</file>
+        <file>Resources/images_map_layer/guanbipressed.png</file>
+        <file>Resources/images_map_layer/layer.png</file>
+        <file>Resources/images_map_layer/layertool.png</file>
+        <file>Resources/images_map_layer/layertool_info.png</file>
+        <file>Resources/images_map_layer/layertool_info_s.png</file>
+        <file>Resources/images_map_layer/layertool_s.png</file>
+        <file>Resources/images_map_layer/progressBg.png</file>
+        <file>Resources/images_map_layer/proressBar.png</file>
+        <file>Resources/images_map_layer/root.png</file>
+        <file>Resources/images_map_layer/tianjia_hover.png</file>
+        <file>Resources/images_map_layer/tianjia_normal.png</file>
+        <file>Resources/images_map_layer/top.png</file>
+        <file>Resources/images_map_layer/top_h.png</file>
+        <file>Resources/images_map_layer/top_press.png</file>
+        <file>Resources/images_map_layer/up.png</file>
+        <file>Resources/images_map_layer/up_h.png</file>
+        <file>Resources/images_map_layer/up_press.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Resources/images/icon/acc.png</file>
+        <file>Resources/images/icon/acc_hover.png</file>
+        <file>Resources/images/icon/acc_pressed.png</file>
+        <file>Resources/images/icon/dec.png</file>
+        <file>Resources/images/icon/dec_hover.png</file>
+        <file>Resources/images/icon/dec_pressed.png</file>
+        <file>Resources/images/icon/h_normal.png</file>
+        <file>Resources/images/icon/pause.png</file>
+        <file>Resources/images/icon/pause_hover.png</file>
+        <file>Resources/images/icon/pause_pressed.png</file>
+        <file>Resources/images/icon/start.png</file>
+        <file>Resources/images/icon/start_hover.png</file>
+        <file>Resources/images/icon/start_pressed.png</file>
+        <file>Resources/images/icon/stop.png</file>
+        <file>Resources/images/icon/stop_hover.png</file>
+        <file>Resources/images/icon/stop_pressed.png</file>
+        <file>Resources/images/icon/forward_hover.png</file>
+        <file>Resources/images/icon/forward_normal.png</file>
+        <file>Resources/images/icon/forward_pressed.png</file>
+        <file>Resources/images/icon/reverse_normal.png</file>
+        <file>Resources/images/icon/shijian_hover.png</file>
+        <file>Resources/images/icon/shijian_normal.png</file>
+        <file>Resources/images/icon/shijian_press.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>Resources/qss/freex_simu_control_ui.css</file>
+    </qresource>
+</RCC>

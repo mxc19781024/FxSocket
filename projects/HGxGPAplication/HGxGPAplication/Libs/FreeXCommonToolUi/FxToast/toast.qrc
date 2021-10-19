@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/qss_toast">
+        <file>Resources/qss_toast/toast.css</file>
+    </qresource>
+    <qresource prefix="/images_toast">
+        <file>Resources/images_toast/bg.png</file>
+        <file>Resources/images_toast/close.png</file>
+        <file>Resources/images_toast/close_p.png</file>
+    </qresource>
+</RCC>

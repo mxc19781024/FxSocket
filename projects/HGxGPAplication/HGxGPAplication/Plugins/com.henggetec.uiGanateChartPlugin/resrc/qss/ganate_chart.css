@@ -1,0 +1,11 @@
+/*QFrame#CFxGanttChart{ 
+	border-image: url(":/images/resrc/images/dikuang.png"); 
+}
+
+CFxGanttChart #pVLayout{
+	border-image: url(":/images/resrc/images/dikuang.png"); 
+}*/
+
+CFxGanttChart #ImageFrame{ 
+	border-image: url(":/images/resrc/images/dikuang.png"); 
+}

@@ -1,0 +1,299 @@
+﻿<FreeXSim>
+	<!--1-红方 2-蓝方 3-不明-->
+	<!--1-海上装备 2-陆地装备 3-空中装备-->
+	<!-- 1-飞机 2-坦克 3-导弹发射车 4-导弹 5-航母 6-护卫舰-->
+	<SceneObj>
+<!--红方飞机-->
+		<Obj parentId="21000" id="20000" camp="1" spaceType="3" equType="1" commuState="0" name="飞机指挥中心">
+			<!--初始位置姿态-->
+			<Position lon="43.171854" lat="46.029245" alt="217"/>
+			<Posture az="-170.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20001" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机8">
+			<!--初始位置姿态-->
+			<Position lon="43.142130" lat="46.080751" alt="43"/>
+			<Posture az="-173" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20002" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机6">
+			<!--初始位置姿态-->
+			<Position lon="43.104601" lat="46.048778" alt="73"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20003" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机5">
+			<!--初始位置姿态-->
+			<Position lon="43.045625" lat="46.054717" alt="74"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20004" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机11">
+			<!--初始位置姿态-->
+			<Position lon="43.057269" lat="46.087515" alt="61"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20006" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机3">
+			<!--初始位置姿态-->
+			<Position lon="43.047693" lat="46.016503" alt="83"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20007" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机10">
+			<!--初始位置姿态-->
+			<Position lon="43.100286" lat="46.084542" alt="52"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20008" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机4">
+			<!--初始位置姿态-->
+			<Position lon="43.012079" lat="46.084542" alt="52"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20009" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机1">
+			<!--初始位置姿态-->
+			<Position lon="43.064142" lat="45.986360" alt="94"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20010" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机7">
+			<!--初始位置姿态-->
+			<Position lon="43.131435" lat="46.046682" alt="71"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20011" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机12">
+			<!--初始位置姿态-->
+			<Position lon="43.028782" lat="46.091126" alt="62"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20012" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机2">
+			<!--初始位置姿态-->
+			<Position lon="43.080223" lat="46.015659" alt="92"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20013" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机9">
+			<!--初始位置姿态-->
+			<Position lon="43.168408" lat="46.078288" alt="60"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="20014" camp="1" spaceType="3" equType="1" commuState="0" name="红方飞机13">
+			<!--初始位置姿态-->
+			<Position lon="43.005375" lat="46.093745" alt="60"/>
+			<Posture az="-173.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="689.98001099"/>
+			<!--通信状态 1-正常通信 2-断开通信 -->
+			<Commus>
+				<TimeSeg startTime="0" endTime="689" state="0"/>
+			</Commus>
+		</Obj>
+<!--地面装备-->
+		<Obj parentId="0" id="21000" camp="1" spaceType="2" equType="3" commuState="1" name="红方指挥车">
+			<!--初始位置姿态-->
+			<Position lon="41.796366" lat="47.649555" alt="50"/>
+			<Posture az="0.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698.32" state="1"/>
+			</Commus>
+		</Obj>
+		
+		<Obj parentId="21000" id="21001" camp="1" spaceType="2" equType="3" commuState="1" name="红方导弹车3">
+			<!--初始位置姿态-->
+			<Position lon="41.738441" lat="47.599976" alt="35"/>
+			<Posture az="0.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698.32" state="1"/>
+			</Commus>
+		</Obj>	
+		
+		<Obj parentId="21000" id="21002" camp="1" spaceType="2" equType="3" commuState="1" name="红方导弹车4">
+			<!--初始位置姿态-->
+			<Position lon="41.736445" lat="47.688345" alt="108"/>
+			<Posture az="0.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698.32" state="1"/>
+			</Commus>
+		</Obj>	
+		
+		<Obj parentId="21000" id="21003" camp="1" spaceType="2" equType="3" commuState="1" name="红方导弹车2">
+			<!--初始位置姿态-->
+			<Position lon="41.842767" lat="47.590692" alt="40"/>
+			<Posture az="0.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698.32" state="1"/>
+			</Commus>
+		</Obj>	
+		
+		<Obj parentId="21000" id="21004" camp="1" spaceType="2" equType="3" commuState="1" name="红方导弹车1">
+			<!--初始位置姿态-->
+			<Position lon="41.854517" lat="47.677328" alt="70"/>
+			<Posture az="0.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698.32" state="1"/>
+			</Commus>
+		</Obj>	
+		
+		<Obj parentId="21000" id="22000" camp="1" spaceType="2" equType="2" commuState="1" name="坦克营">
+			<!--初始位置姿态-->
+			<Position lon="39.964399" lat="46.865601" alt="20"/>
+			<Posture az="180.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+		</Obj>		
+		<Obj parentId="0" id="22001" camp="1" spaceType="2" equType="2" commuState="1" name="红方坦克6">
+			<!--初始位置姿态-->
+			<Position lon="39.938668" lat="46.921324" alt="65"/>
+			<Posture az="180.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+		</Obj>	
+		<Obj parentId="0" id="22002" camp="1" spaceType="2" equType="2" commuState="1" name="红方坦克5">
+			<!--初始位置姿态-->
+			<Position lon="39.985085" lat="46.922250" alt="77"/>
+			<Posture az="180.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+		</Obj>	
+		<Obj parentId="0" id="22003" camp="1" spaceType="2" equType="2" commuState="1" name="红方坦克2">
+			<!--初始位置姿态-->
+			<Position lon="40.013588" lat="46.864031" alt="19"/>
+			<Posture az="180.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+		</Obj>	
+		<Obj parentId="0" id="22004" camp="1" spaceType="2" equType="2" commuState="1" name="红方坦克1">
+			<!--初始位置姿态-->
+			<Position lon="39.962113" lat="46.820514" alt="65"/>
+			<Posture az="180.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="22005" camp="1" spaceType="2" equType="2" commuState="1" name="红方坦克7">
+			<!--初始位置姿态-->
+			<Position lon="39.886466" lat="46.919381" alt="62"/>
+			<Posture az="180.00000000" pitch="-11" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+		</Obj>	
+		<Obj parentId="0" id="22006" camp="1" spaceType="2" equType="2" commuState="1" name="红方坦克3">
+			<!--初始位置姿态-->
+			<Position lon="39.908892" lat="46.860092" alt="19"/>
+			<Posture az="180.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+		</Obj>
+		<Obj parentId="0" id="22007" camp="1" spaceType="2" equType="2" commuState="1" name="红方坦克4">
+			<!--初始位置姿态-->
+			<Position lon="40.028494" lat="46.923475" alt="73"/>
+			<Posture az="180.00000000" pitch="0" roll="0"/>
+			<!--存活时长-->
+			<ExsitTime startTime="0" endTime="698.32"/>
+			<Commus>
+				<TimeSeg startTime="0" endTime="698" state="1"/>
+			</Commus>
+		</Obj>
+<!--地面装备-->
+	</SceneObj>
+</FreeXSim>

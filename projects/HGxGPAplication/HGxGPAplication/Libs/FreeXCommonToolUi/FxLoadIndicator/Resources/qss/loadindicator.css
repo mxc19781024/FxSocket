@@ -1,0 +1,12 @@
+CLoadIndicator #load_bg
+{
+	background-color: #232323;
+	border-radius: 4px;
+}
+
+CLoadIndicator QLabel
+{
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+	color: #ffffff;
+}

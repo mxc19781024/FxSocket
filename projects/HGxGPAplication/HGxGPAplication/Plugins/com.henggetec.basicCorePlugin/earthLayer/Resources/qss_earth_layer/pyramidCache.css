@@ -1,0 +1,21 @@
+*{
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	color:#bfcad8;
+}
+#TopWgt{
+	background-color:#222222;
+}
+
+#ContainerWgt{
+	background-color:#333333;
+}
+#closeBtn{
+	border-image:url(:/images_earth_layer/Resources/images_earth_layer/guanbi.png);
+}
+#closeBtn:pressed{
+	border-image:url(:/images_earth_layer/Resources/images_earth_layer/guanbipressed.png);
+}
+#label,#remainTimeLbl,#valueLbl{
+	color:#ffffff;
+}

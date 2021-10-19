@@ -1,0 +1,75 @@
+FxColorPickerWidget #xui_colorpicker_button
+{
+	padding-bottom: 3px;
+	background-color: #5887ff;
+	border-radius: 12px;
+	width: 99px;
+	height: 23px;
+	color: #dadada;
+}
+
+FxColorPickerWidget #xui_colorpicker_button:hover
+{
+	color: #ffffff;
+}
+
+QSpinBox
+{
+	padding-right:19px;
+	border-image:url(:/Resources/images/spinBox/normal.png) 1;
+	border-width:1;
+}
+QSpinBox:hover
+{
+	border-image:url(:/Resources/images/spinBox/hover.png) 1;
+}
+QSpinBox:focus
+{
+	border-image:url(:/Resources/images/spinBox/focus.png) 1;
+}
+QSpinBox::up-arrow
+{
+	image:url(:/Resources/images/spinBox/arrow_up.png);
+	width:18px;
+	height:11px;
+}
+QSpinBox::up-arrow:hover
+{
+	image:url(:/Resources/images/spinBox/arrow_up_hover.png);
+}
+QSpinBox::up-arrow:pressed
+{
+	image:url(:/Resources/images/spinBox/arrow_up_pressed.png);
+}
+QSpinBox::down-arrow
+{
+	image:url(:/Resources/images/spinBox/arrow_down.png);
+	width:18px;
+	height:11px;
+}
+QSpinBox::down-arrow:hover
+{
+	image:url(:/Resources/images/spinBox/arrow_down_hover.png);
+}
+QSpinBox::down-arrow:pressed
+{
+	image:url(:/Resources/images/spinBox/arrow_down_pressed.png);
+}
+QSpinBox::up-button
+{
+	background:transparent;
+	subcontrol-origin:border;
+	subcontrol-position:top right;
+	width: 18px;
+	height:11px;
+	border-width:1px;
+}
+QSpinBox::down-button
+{
+	background:transparent;
+	subcontrol-origin:border;
+	subcontrol-position:bottom right;
+	width: 18px;
+	height:11px;
+	border-width:1px;
+}

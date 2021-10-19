@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images_colorpicker">
+        <file>Resources/bg.png</file>
+    </qresource>
+</RCC>

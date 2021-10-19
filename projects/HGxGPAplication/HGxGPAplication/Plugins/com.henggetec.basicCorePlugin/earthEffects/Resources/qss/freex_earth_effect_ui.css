@@ -1,0 +1,126 @@
+QSlider{
+	border-color: #bcbcbc;
+}
+QSlider::groove {
+	background-color: #343a42; 
+}
+QSlider::groove:horizontal{
+	border:0px solid #999999; 
+	height:4px; 
+	margin:0px 0; 
+	left:5px; 
+	right:5px;
+}
+QSlider::handle:horizontal{
+	border:0px; 
+	border-image: url(":/images/Resources/images/h_normal.png"); 
+	width:22px;
+	margin:-9px -9px -9px -9px;
+}
+QSlider::sub-page:horizontal{ 
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #439cf3, stop:0.25 #439cf3, stop:0.5 #439cf3, stop:1 #439cf3);
+}
+
+/*CEffectsControl*/
+CSpecialEffectsControl QLabel{
+		font-family:"Microsoft YaHei";
+		font-size:12px;
+		color:#bfcad8;
+}
+
+CSpecialEffectsControl #SettingPushBtn{ 
+	border-image: url(":/images/Resources/images/setting_normal.png") 5px; 
+}
+CSpecialEffectsControl #SettingPushBtn:hover{ 
+	border-image: url(":/images/Resources/images/setting_hover.png") 5px; 
+}
+CSpecialEffectsControl #SettingPushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/setting_pressed.png") 5px; 
+}
+CSpecialEffectsControl #iconWgt{
+	border-image:url(":/images/Resources/images/setting.png")
+}
+
+CSpecialEffectsControl #line{
+	border-image:url(":/images/Resources/images/line_hor.png");
+}
+
+CSpecialEffectsControl QScrollArea { 
+	border: none; 
+	background: transparent; 
+}
+
+
+/*CEffectsControl*/
+
+/*CEffectsControlItem*/
+CEffectsControlItem QLabel{
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:#ffffff;  
+}
+CEffectsControlItem #switchPushBtn { 
+	border-image: url(":/images/Resources/images/switch_off.png");
+}
+CEffectsControlItem #switchPushBtn:checked { 
+	border-image: url(":/images/Resources/images/switch_on.png"); 
+}
+/*CEffectsControlItem*/
+
+/*CEnvirAttrSetting*/
+CEnvirAttrSetting{
+	background:transparent;
+}
+CEnvirAttrSetting QLabel{
+		font-family:"Microsoft YaHei";
+		font-size:12px;
+		color:#bfcad8;
+}
+CEnvirAttrSetting #timeLbl,CEnvirAttrSetting #sunLbl, CEnvirAttrSetting #sunLbl, CEnvirAttrSetting #sunLbl_4,  CEnvirAttrSetting #sunLbl_5, CEnvirAttrSetting #sunLbl_6, CEnvirAttrSetting #sunLbl_2, CEnvirAttrSetting #shadowLbl{
+	font-size:14px;
+	color:#ffffff;
+}
+CEnvirAttrSetting #velBackWgt{
+	border-image:url(":/images/Resources/images/velBack.png");
+}
+CEnvirAttrSetting #widget{
+	background:transparent;
+}
+
+CEnvirAttrSetting #line{
+	border-image:url(":/images/Resources/images/line_hor.png");
+}
+
+CEnvirAttrSetting #SlowDownPushBtn{ border-image: url(":/images/Resources/images/slowdown_normal.png") 5px; }
+CEnvirAttrSetting #SlowDownPushBtn:hover{ border-image: url(":/images/Resources/images/slowdown_hover.png") 5px; }
+CEnvirAttrSetting #SlowDownPushBtn:pressed{ border-image: url(":/images/Resources/images/slowdown_pressed.png") 5px; }
+
+CEnvirAttrSetting #SpeedUpPushBtn{ border-image: url(":/images/Resources/images/speedup_normal.png") 5px; }
+CEnvirAttrSetting #SpeedUpPushBtn:hover{ border-image: url(":/images/Resources/images/speedup_hover.png") 5px; }
+CEnvirAttrSetting #SpeedUpPushBtn:pressed{ border-image: url(":/images/Resources/images/speedup_pressed.png") 5px; }
+CEnvirAttrSetting #ResetPushBtn{ border-image: url(":/images/Resources/images/reset_normal.png") 5px; }
+CEnvirAttrSetting #ResetPushBtn:hover{ border-image: url(":/images/Resources/images/reset_hover.png") 5px; }
+CEnvirAttrSetting #ResetPushBtn:pressed{ border-image: url(":/images/Resources/images/reset_pressed.png") 5px; }
+
+CEnvirAttrSetting QLineEdit{ height: 20px; border-width: 2px; padding: -2px 3; color:#ffffff}
+CEnvirAttrSetting QLineEdit{ border-image: url(":/images/Resources/images/lineEdt_normal.png") 2px; }
+CEnvirAttrSetting QLineEdit:hover{ border-image: url(":/images/Resources/images/lineEdt_hover.png") 2px; }
+CEnvirAttrSetting QLineEdit:focus{ border-image: url(":/images/Resources/images/lineEdt_hover.png") 2px; }
+CEnvirAttrSetting QLineEdit:read-only { border-image: url(":/Resources/images/lineEdt_normal.png") 2px; }
+
+CEnvirAttrSetting #sunIconWgt{border-image:url(":/images/Resources/images/sunAttr.png");}
+CEnvirAttrSetting #sunIconWgt_4{border-image:url(":/images/Resources/images/yu.png");}
+CEnvirAttrSetting #sunIconWgt_5{border-image:url(":/images/Resources/images/xue.png");}
+CEnvirAttrSetting #sunIconWgt_2{border-image:url(":/images/Resources/images/haiyang.png");}
+CEnvirAttrSetting #sunIconWgt_6{border-image:url(":/images/Resources/images/wu.png");}
+CEnvirAttrSetting #sunIconWgt_7{border-image:url(":/images/Resources/images/yuntu.png");}
+CEnvirAttrSetting #shadowIconWgt{border-image:url(":/images/Resources/images/shadowAttr.png");}
+CEnvirAttrSetting #timeIconWgt{border-image:url(":/images/Resources/images/timeAttr.png");}
+CEnvirAttrSetting #vel_aLbl{color:red;}
+CEnvirAttrSetting #vel_bLbl{color:green;}
+
+/*CEnvirAttrSetting*/
+
+
+
+

@@ -1,0 +1,43 @@
+CFxBaseWindow
+{
+	background: transparent;
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+	outline: 0px;
+	border: none;
+}
+
+CFxBaseWindow #fx_tool_window_header
+{
+	border-image:url(:/Resources/images/top.png) 7 9 0 9;
+	border-width: 7 9 0 9;
+}
+
+CFxBaseWindow #fx_tool_window_center
+{
+	border-image:url(:/Resources/images/background1.png) 0 9 13 9;
+	border-width: 0 9 13 9;
+}
+
+CFxBaseWindow #fx_dock_tool_title_label
+{
+	color: #9da5b0;
+	padding-left: 6px;
+	padding-right: 10px;
+	font-size: 13px;
+}
+CFxBaseWindow #fx_dock_tool_operate_btn
+{
+	min-width: 9px;
+	min-height: 9px;
+	max-width: 9px;
+	max-height: 9px;
+	background-color: #2a2a2a;
+	border-image: url(:/Resources/images/guanbi.png);
+}
+
+CFxBaseWindow #fx_dock_tool_operate_btn:hover
+{
+	border-image: url(:/Resources/images/guanbipressed.png);
+}
+

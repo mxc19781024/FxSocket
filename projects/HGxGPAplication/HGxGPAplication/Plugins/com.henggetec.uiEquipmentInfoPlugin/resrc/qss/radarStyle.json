@@ -1,0 +1,106 @@
+{
+	"chart": {
+		"margin": 9,
+		"backgroundColor" : "#ffffff"	
+	},
+	
+	"color": [
+		    "#37a2da",
+        "#32c5e9",
+        "#67e0e3",
+        "#9fe6b8",
+        "#ffdb54",
+        "#ff9f7f",
+        "#fb7293",
+        "#e062ae",
+        "#e690d1",
+        "#e7bcf3",
+        "#9d96f5",
+        "#8378ea"
+	],
+
+	"title": {
+		"show" : true,
+		"align" : "AlignTop",
+		"textStyle": {
+			"color" : "#999999",
+			"fontSize" : 12,  
+			"fontWeight": "Normal",
+			"fontStyle": "normal",
+			"fontFamily": "Microsoft YaHei"		
+		},
+		"subtextStyle": {
+			"color" : "#999999",
+			"fontSize" : 9,  
+			"fontWeight": "Normal",
+			"fontStyle": "normal",
+			"fontFamily": "Microsoft YaHei"		
+		},
+		"lineSpacing": 10
+	},
+
+	"legend": {
+		"show" : true,
+		"align" : "AlignTop",
+		"textStyle": {
+			"color" : "#999999",
+			"fontSize" : 9,  
+			"fontWeight": "Normal",
+			"fontStyle": "normal",
+			"fontFamily": "Microsoft YaHei"		
+		}	
+	},
+		
+	"radar":{
+		"shape": "polygon",
+		"name":{
+			"show": true,
+			"textStyle": {
+				"color" : "#999999",
+				"fontSize" : 9,  
+				"fontWeight": "Normal",
+				"fontStyle": "normal",
+				"fontFamily": "Microsoft YaHei"	
+			}			
+		},	
+		"axisLabel":{
+			"show": true,
+			"textStyle": {
+				"color" : "#999999",
+				"fontSize" : 9,  
+				"fontWeight": "Normal",
+				"fontStyle": "normal",
+				"fontFamily": "Microsoft YaHei"
+			}			
+		},			
+		"axisLine": {
+			"show": true,
+			"lineStyle": {
+				"color": "#d5d5d5",
+				"width": 1,
+				"style": "SolidLine",
+				"capStyle": "FlatCap"			
+			}		
+		},	
+		"splitLine": {
+			"show": true,
+			"lineStyle": {
+				"color": "#d5d5d5",
+				"width": 1,
+				"style": "SolidLine",
+				"capStyle": "FlatCap"			
+			}		
+		},
+		"splitArea": {
+			"alternative": false,
+			"color": "#eeeeee",
+			"alternativeColor": "#fdfdfd"
+		},		
+		"vertex":{
+			"show": false,
+			"size": 7,
+			"borderColor": "#d5d5d5",
+			"fillColor": "#d5d5d5"
+		}
+	}
+}

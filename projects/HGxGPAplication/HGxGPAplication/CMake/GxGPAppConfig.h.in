@@ -1,0 +1,7 @@
+﻿#ifndef __GxGPAppConfig_h
+#define __GxGPAppConfig_h
+
+#define HGX_PLUGINS_LIBRARIES_DIR "@HGX_PLUGIN_LIBRARIES_DIR_CONFIG@/"
+#define HGX_PLUGINS_SRC_DIR "@HGX_PLUGINS_SRC_DIR_CONFIG@/"
+
+#endif

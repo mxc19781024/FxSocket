@@ -1,0 +1,7 @@
+time type dFocalLon dFocalLat dFocalAlt dHeading dPitch dRange dtimelen
+     type=1 dFocalLon dFocalLat dFocalAlt dHeading dPitch dRange dtimelen 视点定位
+     type=2 dFocalLon dFocalLat dFocalAlt nEntityId 凝视 
+     type=3 nEntitId nTargetId 谁看谁 
+     type=4 enTrackType nTargetId 视点跟踪 trackType=1 只跟踪位置 2 跟踪位置姿态 3 跟踪速度  pitch angle dis 
+	 type=5 dFocalLon dFocalLat dFocalAlt dHeading dPitch dRoll   dFocalLon1 dFocalLat1 dFocalAlt1 dHeading1 dPitch1 dRoll1  dtimelen //....漫游视角
+	 type=6 dFocalLon dFocalLat dFocalAlt dFocalLon1 dFocalLat1 dFocalAlt1 nTargetId dtimelen //....凝视目标多长时间

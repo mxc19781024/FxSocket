@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/qss_loadindicator">
+        <file>Resources/qss/loadindicator.css</file>
+    </qresource>
+    <qresource prefix="/images_loadindicator">
+        <file>Resources/images/load.gif</file>
+        <file>Resources/images/loading.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,89 @@
+﻿CSceneControlWidget #LoadDataBtn:hover{ 
+	border-image: url(":/images/resrc/images/LoadData_normal.png") 5px; 
+}
+CSceneControlWidget #LoadDataBtn{ 
+	border-image: url(":/images/resrc/images/LoadData_normal.png") 5px; 
+}
+
+CSceneControlWidget #LoadDataBtn:pressed{ 
+	border-image: url(":/images/resrc/images/LoadData_selected.png") 5px; 
+}
+
+
+
+CSceneControlWidget #SimuListBtn{ 
+	border-image: url(":/images/resrc/images/Simu_normal.png") 5px; 
+}
+CSceneControlWidget #SimuListBtn:hover{ 
+	border-image: url(":/images/resrc/images/Simu_hover.png") 5px; 
+}
+CSceneControlWidget #SimuListBtn:pressed{ 
+	border-image: url(":/images/resrc/images/Simu_selected.png") 5px; 
+}
+CSceneControlWidget #BackGroundLabel{ 
+	border-image: url(":/images/resrc/images/SceneControl.png") 5px; 
+}
+
+
+
+CLoadDataWidget #LoadDataFrame{ 
+	border-image: url(":/images/resrc/images/shujujiazai.png"); 
+	border : 1px;
+}
+CLoadDataWidget #pSceneInfoListWidget{ 
+	background-color:transparent; 
+	border: 0px;
+}
+CLoadDataWidget #LoadSceneBtn{ 
+	font-size: 17px;
+	border-image: url(":/images/resrc/images/load_scene.png"); 
+}
+#CLoadDataWidget QLabel{ 
+	color:rgb(255,255,255);
+}
+CLoadDataWidget #CloseBtn{ 
+	border-image: url(":/images/resrc/images/close_normal.png") 5px;
+}
+CLoadDataWidget #CloseBtn:pressed{ 
+	border-image: url(":/images/resrc/images/close_selected.png") 5px;
+}
+
+CSimuListWidget #SimuListFrame
+{
+	background-image: url(":/images/resrc/images/fangzhenliebiao.png"); 
+	border : 1px;
+}
+CSimuListWidget #objectTreeWidget{ 
+	background-color:transparent; 
+	border: 0px;
+}
+CSimuListWidget #CloseBtn{ 
+	border-image: url(":/images/resrc/images/close_normal.png") 5px;
+}
+CSimuListWidget #CloseBtn:pressed{ 
+	border-image: url(":/images/resrc/images/close_selected.png") 5px;
+}
+CSimuListWidget #objectTreeWidget::indicator:checked{ 
+	image: url(":/images/resrc/images/checkbox_checked.png")
+}
+CSimuListWidget #objectTreeWidget::indicator:unchecked{ 
+	image: url(":/images/resrc/images/checkbox_unchecked.png")
+}
+CSimuListWidget #objectTreeWidget::indicator:indeterminate{ 
+	image: url(":/images/resrc/images/checkbox_indeterminate.png")
+}
+CSimuListWidget #objectTreeWidget:branch:has-siblings:！adjoins-item{ 
+	border-image: url(":/images/resrc/images/scrollbar_bg.png"); 
+}
+CSimuListWidget #objectTreeWidget:branch:has-siblings:adjoins-item{ 
+	border-image: url(":/images/resrc/images/branch_end.png"); 
+}
+CSimuListWidget #objectTreeWidget:branch:！has-children:！has-siblings:adjoins-item{ 
+	border-image: url(":/images/resrc/images/branch_more.png"); 
+}
+
+
+CLoadDataItemWidget #Type_Image{ 
+	border-image: url(":/images/resrc/images/icon_evaluation .png");
+}
+

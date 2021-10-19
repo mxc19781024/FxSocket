@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/image/2.png</file>
+        <file>Resource/image/3.jpg</file>
+        <file>Resource/image/banzi.png</file>
+        <file>Resource/image/denglukuangbeiban.png</file>
+        <file>Resource/image/fengexian.png</file>
+        <file>Resource/image/logo.png</file>
+        <file>Resource/image/mimatubiao.png</file>
+        <file>Resource/image/queren-hover.png</file>
+        <file>Resource/image/queren-normal.png</file>
+        <file>Resource/image/queren-pressed.png</file>
+        <file>Resource/image/shurukuang-hover.png</file>
+        <file>Resource/image/shurukuang-normal.png</file>
+        <file>Resource/image/shurukuang-pressed.png</file>
+        <file>Resource/image/tuichu-hover.png</file>
+        <file>Resource/image/tuichu-normal.png</file>
+        <file>Resource/image/tuichu-pressed.png</file>
+        <file>Resource/image/vvvv.png</file>
+        <file>Resource/image/yonghutubiao.png</file>
+        <file>Resource/image/首页2.jpg</file>
+        <file>Resource/login.css</file>
+    </qresource>
+</RCC>

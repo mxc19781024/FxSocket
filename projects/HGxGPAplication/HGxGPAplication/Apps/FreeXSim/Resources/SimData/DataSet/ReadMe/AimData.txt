@@ -1,0 +1,2 @@
+time entityId targetId aimState continueTime
+时戳 实体ID 目标ID 瞄准状态 持续时长

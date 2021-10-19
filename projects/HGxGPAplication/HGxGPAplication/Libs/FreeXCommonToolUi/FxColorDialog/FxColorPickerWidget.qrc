@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/qss/colorpicker.css</file>
+        <file>Resources/images/bg.png</file>
+        <file>Resources/images/title_bg.png</file>
+        <file>Resources/images/spinBox/arrow_down.png</file>
+        <file>Resources/images/spinBox/arrow_down_disabled.png</file>
+        <file>Resources/images/spinBox/arrow_down_hover.png</file>
+        <file>Resources/images/spinBox/arrow_down_pressed.png</file>
+        <file>Resources/images/spinBox/arrow_up.png</file>
+        <file>Resources/images/spinBox/arrow_up_hover.png</file>
+        <file>Resources/images/spinBox/arrow_up_pressed.png</file>
+        <file>Resources/images/spinBox/focus.png</file>
+        <file>Resources/images/spinBox/hover.png</file>
+        <file>Resources/images/spinBox/normal.png</file>
+    </qresource>
+</RCC>

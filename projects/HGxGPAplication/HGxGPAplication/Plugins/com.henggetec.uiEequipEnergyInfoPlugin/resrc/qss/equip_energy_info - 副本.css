@@ -1,0 +1,40 @@
+﻿CEquipEnergyInfoWidget #ImageFrame{
+	background-image: url(":/img/resrc/images/beijing.png");
+}
+CEquipEnergyInfoWidget #labelLogo{
+	border-image: url(":/img/resrc/images/OV-103.png");
+}
+CEquipEnergyInfoWidget #labelLogo_2{
+	border-image: url(":/img/resrc/images/B-2.png");
+}
+CEquipEnergyInfoWidget #label_energy{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyInfoWidget #label_load{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyInfoWidget #label_energy_2{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyInfoWidget #label_load_2{
+	color:rgba(255,255,255,143);
+}
+
+CEquipEnergyInfoWidget #label_paraA{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyInfoWidget #label_paraB{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyInfoWidget #label_paraC{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyInfoWidget #label_paraA_2{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyInfoWidget #label_paraB_2{
+	color:rgba(255,255,255,143);
+}
+CEquipEnergyInfoWidget #label_paraC_2{
+	color:rgba(255,255,255,143);
+}

@@ -1,0 +1,16 @@
+CSimpleToast #toast_content
+{
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+	color: #ffffff;
+}
+.CSimpleToast[style="information"]
+{
+	border-image: url(:/images_simpletoast/Resources/images_simpletoast/information.png) 5 5 5 18;
+	border-width: 5 5 5 18;
+}
+.CSimpleToast[style="error"]
+{
+	border-image: url(:/images_simpletoast/Resources/images_simpletoast/error.png) 5 5 5 18;
+	border-width: 5 5 5 18;
+}

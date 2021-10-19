@@ -1,0 +1,126 @@
+﻿Sentences that contain all letters commonly used in a language
+--------------------------------------------------------------
+
+Markus Kuhn <http://www.cl.cam.ac.uk/~mgk25/> -- 2001-09-02
+
+This file is UTF-8 encoded.
+
+
+Danish (da)
+---------
+
+  Quizdeltagerne spiste jordbaer med flode, mens cirkusklovnen
+  Wolther spillede pa xylofon.
+  (= Quiz contestants were eating strawbery with cream while Wolther
+  the circus clown played on xylophone.)
+
+German (de)
+-----------
+
+  Falsches "Uben von Xylophonmusik qu"alt jeden gr"osseren Zwerg
+  (= Wrongful practicing of xylophone music tortures every larger dwarf)
+
+  Zw"olf Boxk"ampfer jagten Eva quer über den Sylter Deich
+  (= Twelve boxing fighters hunted Eva across the dike of Sylt)
+
+  Heiz"olrückstossabd"ampfung
+  (= fuel oil recoil absorber)
+  (jqvwxy missing, but all non-ASCII letters in one word)
+
+English (en)
+------------
+
+  The quick brown fox jumps over the lazy dog
+
+Spanish (es)
+------------
+
+  El pingüino Wenceslao hizo kilómetros bajo exhaustiva lluvia y 
+  frío, a~noraba a su querido cachorro.
+  (Contains every letter and every accent, but not every combination
+  of vowel + acute.)
+
+French (fr)
+-----------
+
+  Portez ce vieux whisky au juge blond qui fume sur son ^ile intérieure, à
+  c^oté de l'alc^ove ovo"ide, où les b^uches se consument dans l'^atre, ce
+  qui lui permet de penser à la caenogenèse de l'être dont il est question
+  dans la cause ambigu"e entendue à Mo"y, dans un capharnaüm qui,
+  pense-t-il, diminue cà et là la qualité de son oeuvre. 
+
+  l'^ile exigu"e
+  Où l'obèse jury m^ur
+  Fête l'ha"i volapük,
+  ^Ane ex aéquo au whist,
+  ^Otez ce voeu décu.
+
+  Le coeur décu mais l'^ame plut^ot na"ive, Lou"ys rêva de crapaüter en
+  cano"e au delà des ^iles, près du m"alstr"om où br^ulent les novae.
+
+Irish Gaelic (ga)
+-----------------
+
+  D'fhuascail 'Iosa, 'Urmhac na h'Oighe Beannaithe, pór 'Eava agus 'Adhaimh
+
+Hungarian (hu)
+--------------
+
+  'Arvízt"ur"o tük"orfúrógép
+  (= flood-proof mirror-drilling machine, only all non-ASCII letters)
+
+Icelandic (is)
+--------------
+
+  Kaemi n'y "oxi hér ykist thjófum nú baedi víl og ádrepa
+
+  Saev"or grét ádan thví úlpan var ón'yt
+  (some ASCII letters missing)
+
+Japanese (jp)
+-------------
+
+  Hiragana: (Iroha)
+
+  いろはにほへとちりぬるを
+  わかよたれそつねならむ
+  うゐのおくやまけふこえて
+  あさきゆめみしゑひもせす
+
+  Katakana:
+
+  イロハニホヘト チリヌルヲ ワカヨタレソ ツネナラム
+  ウヰノオクヤマ ケフコエテ アサキユメミシ ヱヒモセスン
+
+Hebrew (iw)
+-----------
+
+  ?           
+
+Polish (pl)
+-----------
+
+  Pchna'c w te lód'z jeza lub o'sm skrzyń fig
+  (= To push a hedgehog or eight bins of figs in this boat)
+
+Russian (ru)
+------------
+
+  В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!
+  (= Would a citrus live in the bushes of south? Yes, but only a fake one!)
+
+Thai (th)
+---------
+
+  [--------------------------|------------------------]
+     
+             
+       
+             
+
+  [The copyright for the Thai example is owned by The Computer
+  Association of Thailand under the Royal Patronage of His Majesty the
+  King.]
+
+Please let me know if you find others! Special thanks to the people
+from all over the world who contributed these sentences.

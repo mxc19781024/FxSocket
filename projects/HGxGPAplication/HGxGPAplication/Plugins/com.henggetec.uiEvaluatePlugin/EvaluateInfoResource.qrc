@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>resrc/images/bg.png</file>
+        <file>resrc/images/xianshikuang.png</file>
+        <file>resrc/images/heisi.png</file>
+        <file>resrc/images/hongse.png</file>
+        <file>resrc/images/beijing.png</file>
+        <file>resrc/images/zuo.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>resrc/qss/evaluate_info.css</file>
+    </qresource>
+</RCC>

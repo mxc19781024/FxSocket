@@ -1,0 +1,16 @@
+QWidget{font-family:微软雅黑;font-size:14px;color:#ffffff;background:transparent;}
+
+C3DRealSceneItem
+{
+	border-image:url(:/images_earth_layer/Resources/images_earth_layer/item_bg.png) 5 10 6 6;
+	border-width: 5 10 6 6;
+	font-family: "Microsoft YaHei";
+}
+C3DRealSceneItem:hover
+{
+	border-image:url(:/images_earth_layer/Resources/images_earth_layer/item_bg_hover.png) 5 10 6 6;
+}
+C3DRealSceneItem[selected="true"]
+{
+	border-image:url(:/images_earth_layer/Resources/images_earth_layer/item_bg_hover.png) 5 10 6 6;
+}

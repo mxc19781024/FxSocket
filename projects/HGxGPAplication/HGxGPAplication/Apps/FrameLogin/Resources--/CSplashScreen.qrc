@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/images_splash_screen">
+        <file>Resources/background.png</file>
+        <file>Resources/logo.png</file>
+        <file>Resources/logo_hengge.png</file>
+        <file>Resources/loading.gif</file>
+    </qresource>
+    <qresource prefix="/css_splash_screen">
+        <file>Resources/startWgt.css</file>
+    </qresource>
+  <qresource prefix="/txt_splash_screen">
+    <file>Resources/info.txt</file>
+  </qresource>
+</RCC>

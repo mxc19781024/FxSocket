@@ -1,0 +1,71 @@
+/*QListWidget{border:none;background-color:black;}*/
+
+/*CGxAddTileWindow CGxAddOGCWindow CGxAddDataSetWindow*/
+CGxAddDataSetWindow QLabel, CGxAddTileWindow QLabel, CGxAddOGCWindow QLabel{
+	color:#ffffff;
+	font-family:Microsoft YaHei;
+	font-size:12px;
+}
+
+QLineEdit[errorMsg = "red"]:hover{border:1px solid red;}
+QLineEdit[errorMsg = "red"]:focus{border:1px solid red;}
+QLineEdit[errorMsg = "red"]{border:1px solid red;}
+
+#pOkBtn, #pCancelBtn
+{
+	color: #999999;
+	background: transparent;
+}
+#pOkBtn:hover, #pCancelBtn:hover
+{
+	color: #ffffff;
+}
+#pOkBtn:pressed, #pCancelBtn:pressed
+{
+	color: #3b7cff;
+}
+
+#line{
+	border:none;
+	max-height:1px;
+	border-image:url(:/images/Resources/images/line1.png);
+}
+#line_3{
+	border:none;
+	max-height:1px;
+	border-image:url(:/images/Resources/images/line1.png);
+}
+#line_2{
+	border:none;
+	max-width:1px;
+	border-image:url(:/images/Resources/images/line11.png);
+}
+#pXYZLocalTBtn{
+	border-image:url(:/images/Resources/images/browse_normal.png);
+}
+#pXYZLocalTBtn:hover{
+	border-image:url(:/images/Resources/images/browse_hover.png);
+}
+#pXYZLocalTBtn:pressed{
+	image:url(:/images/Resources/images/browse_pressed.png);
+}
+#pGetLayerBtn{
+	border-image:url(:/images/Resources/images/get.png);
+}
+#pGetLayerBtn:hover{
+	border-image:url(:/images/Resources/images/get_hover.png);
+}
+#pGetLayerBtn:pressed{
+	image:url(:/images/Resources/images/get_pressed.png);
+}
+#pResetTBtn{
+	border-image:url(:/images/Resources/images/back.png);
+}
+#pResetTBtn:hover{
+	border-image:url(:/images/Resources/images/back_hover.png);
+}
+#pResetTBtn:pressed{
+	image:url(:/images/Resources/images/back_pressed.png);
+}
+/*CGxAddTileWindow CGxAddOGCWindow CGxAddDataSetWindow*/
+

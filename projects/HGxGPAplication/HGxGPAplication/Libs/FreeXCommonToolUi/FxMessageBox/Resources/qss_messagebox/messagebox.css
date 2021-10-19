@@ -1,0 +1,55 @@
+CMessageBox
+{
+	background: transparent;
+	outline: 0px;
+	font-family: "Microsoft YaHei";
+	font-size: 13px;
+}
+CMessageBox #overlayWgt
+{
+	background-color: rgba(0, 0, 0, 170);
+}
+CMessageBox #center_wgt
+{
+	border-image: url(:/images_messagebox/Resources/images_messagebox/bg.png) 10 14 16 14;
+	border-width: 10 14 16 14;
+}
+CMessageBox #fx_msgbox_icon
+{
+	border-image: url(:/images_messagebox/Resources/images_messagebox/warning.png);
+}
+CMessageBox #fx_msgbox_content
+{
+	color: #ffffff;
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+}
+CMessageBox QPushButton
+{
+	color: #9da5b0;
+	background: transparent;
+	border: none;
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+}
+CMessageBox QPushButton:hover
+{
+	color: #ffffff;
+}
+CMessageBox QPushButton:pressed
+{
+	color: #3b7cff;
+}
+QFrame[frameShape="4"]
+{
+	border: none;
+	max-height: 1px;
+	background: #232323;
+}
+QFrame[frameShape="5"]
+{
+	border: none;
+	max-width: 1px;
+	max-height: 12px;
+	background: #232323;
+}

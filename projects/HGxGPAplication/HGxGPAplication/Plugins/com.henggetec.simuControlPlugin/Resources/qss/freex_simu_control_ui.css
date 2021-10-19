@@ -1,0 +1,122 @@
+QSlider{
+	border-color: #bcbcbc;
+}
+QSlider::groove {
+	background-color: #343a42; 
+}
+QSlider::groove:horizontal{
+	border:0px solid #999999; 
+	height:6px; 
+	margin:0px 0; 
+	left:5px; 
+	right:5px;
+}
+QSlider::handle:horizontal{
+	border:0px; 
+	border-image: url(":/images/Resources/images/icon/h_normal.png"); 
+	width:40px;
+	margin:-16px -14px -16px -14px;
+}
+QSlider::sub-page:horizontal{ 
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #439cf3, stop:0.25 #439cf3, stop:0.5 #439cf3, stop:1 #439cf3);
+}
+CSimuControlWidget #UTCTimeLabel,CSimuControlWidget QDateTimeEdit
+{
+	/*color: #ffffff;*/
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #222222;
+	border: 1px solid #222222;
+	border-radius: 4px;
+}
+CSimuControlWidget #UTCTimeLabel:hover,CSimuControlWidget QDateTimeEdit:hover
+{
+	border: 1px solid #233245;
+}
+CSimuControlWidget #UTCTimeLabel:focus,CSimuControlWidget QDateTimeEdit:focus
+{
+	border: 1px solid #465b78;
+}
+/*CEffectsControl*/
+CSimuControlWidget QLabel,CSimuControlWidget QDateTimeEdit, CSimuControlWidget QDoubleSpinBox
+{
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:#bfcad8;
+}
+
+CSimuControlWidget #StartPushBtn{ 
+	border-image: url(":/images/Resources/images/icon/start.png") 5px; 
+}
+CSimuControlWidget #StartPushBtn:hover{ 
+	border-image: url(":/images/Resources/images/icon/start_hover.png") 5px; 
+}
+CSimuControlWidget #StartPushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/icon/start_pressed.png") 5px; 
+}
+CSimuControlWidget #StartPushBtn:checked{ 
+	border-image: url(":/images/Resources/images/icon/pause.png") 5px; 
+}
+CSimuControlWidget #StartPushBtn:hover:checked{ 
+	border-image: url(":/images/Resources/images/icon/pause_hover.png") 5px; 
+}
+CSimuControlWidget #StartPushBtn:pressed:checked{ 
+	border-image: url(":/images/Resources/images/icon/pause_pressed.png") 5px; 
+}
+CSimuControlWidget #ReversePushBtn{ 
+	border-image: url(":/images/Resources/images/icon/forward_normal.png") 5px; 
+}
+CSimuControlWidget #ReversePushBtn:hover{ 
+	border-image: url(":/images/Resources/images/icon/forward_hover.png") 5px; 
+}
+CSimuControlWidget #ReversePushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/icon/forward_pressed.png") 5px; 
+}
+CSimuControlWidget #ReversePushBtn:checked{ 
+	border-image: url(":/images/Resources/images/icon/reverse_normal.png") 5px; 
+}
+/*CSimuControlWidget #ReversePushBtn:hover:checked{ 
+	border-image: url(":/images/Resources/images/icon/reverse_hover.png") 5px; 
+}
+CSimuControlWidget #ReversePushBtn:pressed:checked{ 
+	border-image: url(":/images/Resources/images/icon/reverse_pressed.png") 5px; 
+}*/
+CSimuControlWidget #StopPushBtn{ 
+	border-image: url(":/images/Resources/images/icon/stop.png") 5px; 
+}
+CSimuControlWidget #StopPushBtn:hover{ 
+	border-image: url(":/images/Resources/images/icon/stop_hover.png") 5px; 
+}
+CSimuControlWidget #StopPushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/icon/stop_pressed.png") 5px; 
+}
+CSimuControlWidget #AccPushBtn{ 
+	border-image: url(":/images/Resources/images/icon/acc.png") 5px; 
+}
+CSimuControlWidget #AccPushBtn:hover{ 
+	border-image: url(":/images/Resources/images/icon/acc_hover.png") 5px; 
+}
+CSimuControlWidget #AccPushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/icon/acc_pressed.png") 5px; 
+}
+CSimuControlWidget #DecPushBtn{ 
+	border-image: url(":/images/Resources/images/icon/dec.png") 5px; 
+}
+CSimuControlWidget #DecPushBtn:hover{ 
+	border-image: url(":/images/Resources/images/icon/dec_hover.png") 5px; 
+}
+CSimuControlWidget #DecPushBtn:pressed{ 
+	border-image: url(":/images/Resources/images/icon/dec_pressed.png") 5px; 
+}
+/*CSpecialEffectsControl #iconWgt{
+	border-image:url(":/images/Resources/images/setting.png")
+}
+
+CSpecialEffectsControl #line{
+	border-image:url(":/images/Resources/images/line_hor.png");
+}
+*/
+
+
+
+

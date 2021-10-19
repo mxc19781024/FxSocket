@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>resrc/images/OV-103.png</file>
+        <file>resrc/images/B-2.png</file>
+        <file>resrc/images/you.png</file>
+        <file>resrc/images/beijing.png</file>
+        <file>resrc/images/mingcheng.png</file>
+        <file>resrc/images/shuzikuang.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>resrc/qss/equip_energy_info.css</file>
+    </qresource>
+</RCC>

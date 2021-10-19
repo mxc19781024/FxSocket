@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/qss/FxWidgetSystem.qss</file>
+        <file>Resources/images/quxiao.png</file>
+        <file>Resources/images/quxiaodianji.png</file>
+        <file>Resources/images/quxiaohover.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Resources/images/guanbi.png</file>
+        <file>Resources/images/guanbipressed.png</file>
+        <file>Resources/images/background1.png</file>
+        <file>Resources/images/top.png</file>
+        <file>Resources/images/input box click.png</file>
+        <file>Resources/images/input box hover.png</file>
+        <file>Resources/images/input box.png</file>
+        <file>Resources/images/quxiao.png</file>
+        <file>Resources/images/quxiaodianji.png</file>
+        <file>Resources/images/quxiaohover.png</file>
+        <file>Resources/images/background.png</file>
+        <file>Resources/images/line1.png</file>
+        <file>Resources/images/line11.png</file>
+        <file>Resources/images/affirm.png</file>
+        <file>Resources/images/affirm_hover.png</file>
+        <file>Resources/images/affirm_pressed.png</file>
+        <file>Resources/images/arrow_down.png</file>
+        <file>Resources/images/arrow_down_hover.png</file>
+        <file>Resources/images/arrow_down_pressed.png</file>
+        <file>Resources/images/back.png</file>
+        <file>Resources/images/back_hover.png</file>
+        <file>Resources/images/back_pressed.png</file>
+        <file>Resources/images/dasongdianji.png</file>
+        <file>Resources/images/fasong.png</file>
+        <file>Resources/images/fasonghover.png</file>
+        <file>Resources/images/get.png</file>
+        <file>Resources/images/get_hover.png</file>
+        <file>Resources/images/get_pressed.png</file>
+        <file>Resources/images/save.png</file>
+        <file>Resources/images/save_hover.png</file>
+        <file>Resources/images/save_pressed.png</file>
+        <file>Resources/images/browse_hover.png</file>
+        <file>Resources/images/browse_normal.png</file>
+        <file>Resources/images/browse_pressed.png</file>
+    </qresource>
+</RCC>

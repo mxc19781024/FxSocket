@@ -1,0 +1,29 @@
+CSceneToolSelectWidget #fx_toolitem_container_wgt
+{
+	background-color: #333333;
+}
+
+#widget{border-image:url(":/Resources/images/mainBack.png");}
+#line{border-image:url(":/Resources/images/line_hor.png");}
+#synchIconWgt{border-image: url(":/Resources/images/synch.png");}
+
+QPushButton{padding-bottom: -46px; color:#999999; font-family:微软雅黑; font-size:14px}
+QPushButton:hover{color:#ffffff}
+
+#synchPushBtn { border-image: url(":/Resources/images/switch_off.png");}
+#synchPushBtn:checked { border-image: url(":/Resources/images/switch_on.png"); }
+
+CSceneToolItem
+{
+	border-image:url(:/Resources/images/item_bg.png) 5 10 6 6;
+	border-width: 5 10 6 6;
+	font-family: "Microsoft YaHei";
+}
+CSceneToolItem:hover
+{
+	border-image:url(:/Resources/images/item_bg_hover.png) 5 10 6 6;
+}
+CSceneToolItem[selected="true"]
+{
+	 border-image:url(:/Resources/images/item_bg_hover.png) 5 10 6 6;
+}

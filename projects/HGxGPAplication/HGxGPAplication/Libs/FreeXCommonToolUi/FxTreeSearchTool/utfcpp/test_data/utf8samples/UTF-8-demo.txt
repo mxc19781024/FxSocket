@@ -1,0 +1,212 @@
+﻿
+UTF-8 encoded sample plain-text file
+
+
+Markus Kuhn ['maks kun] <http://www.cl.cam.ac.uk/~mgk25/> — 2002-07-25
+
+
+The ASCII compatible UTF-8 encoding used in this plain-text file
+is defined in Unicode, ISO 10646-1, and RFC 2279.
+
+
+Using Unicode/UTF-8, you can write in emails and source code things such as
+
+Mathematics and sciences:
+
+  ∮ E·da = Q,  n → ∞, ∑ f(i) = ∏ g(i),      ┌─────┐
+                                            │a^2+b^3 
+  x∈R: x = --x, α ∧ notβ = not(notα ∨ β),    │───── 
+                                             c   
+  N  N  Z  Q  R  C,                          
+                                             ∞     
+  ⊥ < a ≠ b ≡ c ≤ d <<  => (A <=> B),            
+                                             a-b
+  2H + O  2HO, R = 4.7 kΩ,  200 mm     i=1    
+
+Linguistics and dictionaries:
+
+  di int'naenl f'ntik sosi'ein
+  Y ['psiln], Yen [jn], Yoga ['jogɑ]
+
+APL:
+
+  ((VV)=V)/V←,V    ←→
+
+Nicer typography in plain text files:
+
+  ╔══════════════════════════════════════════╗
+  ║                                          ║
+  ║   o ‘single’ and “double” quotes         ║
+  ║                                          ║
+  ║   o Curly apostrophes: “We’ve been here” ║
+  ║                                          ║
+  ║   o Latin-1 apostrophe and accents: ''`  ║
+  ║                                          ║
+  ║   o ‘deutsche‘ "Anführungszeichen“       ║
+  ║                                          ║
+  ║   o +, , ‰, o, 3–4, —, -5/+5, TM, …      ║
+  ║                                          ║
+  ║   o ASCII safety test: 1lI|, 0OD, 8B     ║
+  ║                      ╭─────────╮         ║
+  ║   o the euro symbol: │ 14.95 EUR │         ║
+  ║                      ╰─────────╯         ║
+  ╚══════════════════════════════════════════╝
+
+Combining characters:
+
+  STARGΛTE SG-1, a = v = r, a ⊥ b
+
+Greek (in Polytonic):
+
+  The Greek anthem:
+
+  Σ γνωρζω π τν κψη
+  το σπαθιο τν τρομερ,
+  σ γνωρζω π τν ψη
+  πο μ βα μετρει τ γ.
+
+  Απ τ κκκαλα βγαλμνη
+  τν Ελλνων τ ερ
+  κα σν πρτα νδρειωμνη
+  χαρε,  χαρε, Ελευθερι!
+
+  From a speech of Demosthenes in the 4th century BC:
+
+  Οχ τατ παρστατα μοι γιγνσκειν,  νδρε Αθηναοι,
+  ταν τ ε τ πργματα ποβλψω κα ταν πρ το
+  λγου ο κοω το μν γρ λγου περ το
+  τιμωρσασθαι Φλιππον ρ γιγνομνου, τ δ πργματ
+  ε τοτο προκοντα,  σθ πω μ πεισμεθ ατο
+  πρτερον κακ σκψασθαι δον. οδν ον λλο μοι δοκοσιν
+  ο τ τοιατα λγοντε  τν πθεσιν, περ  βουλεεσθαι,
+  οχ τν οσαν παριστντε μν μαρτνειν. γ δ, τι μν
+  ποτ ξν τ πλει κα τ ατ χειν σφαλ κα Φλιππον
+  τιμωρσασθαι, κα μλ κριβ οδα π μο γρ, ο πλαι
+  γγονεν τατ μφτερα νν μντοι ππεισμαι τοθ κανν
+  προλαβεν μν εναι τν πρτην, πω το συμμχου
+  σσομεν. ν γρ τοτο βεβαω πρξ, ττε κα περ το
+  τνα τιμωρσετα τι κα ν τρπον ξσται σκοπεν πρν δ
+  τν ρχν ρθ ποθσθαι, μταιον γομαι περ τ
+  τελευτ ντινον ποιεσθαι λγον.
+
+  Δημοσθνου, Γ Ολυνθιακ
+
+Georgian:
+
+  From a Unicode conference invitation:
+
+      Unicode-  
+   ,   10-12 ,
+  . , .    
+        Unicode-,
+    , Unicode- 
+   ,   , ,
+       .
+
+Russian:
+
+  From a Unicode conference invitation:
+
+  Зарегистрируйтесь сейчас на Десятую Международную Конференцию по
+  Unicode, которая состоится 10-12 марта 1997 года в Майнце в Германии.
+  Конференция соберет широкий круг экспертов по  вопросам глобального
+  Интернета и Unicode, локализации и интернационализации, воплощению и
+  применению Unicode в различных операционных системах и программных
+  приложениях, шрифтах, верстке и многоязычных компьютерных системах.
+
+Thai (UCS Level 2):
+
+  Excerpt from a poetry on The Romance of The Three Kingdoms (a Chinese
+  classic 'San Gua'):
+
+  [----------------------------|------------------------]
+       
+         
+               
+           
+          
+            
+              
+              
+
+  (The above is a two-column text. If combining characters are handled
+  correctly, the lines of the second column should be aligned with the
+  | character above.)
+
+Ethiopian:
+
+  Proverbs in the Amharic language:
+
+     
+     
+     
+       
+     
+     
+   
+      
+     
+       
+      
+       
+     
+       
+       
+     
+      
+     
+
+Runes:
+
+             
+
+  (Old English, which transcribed into Latin reads 'He cwaeth that he
+  bude thaem lande northweardum with tha Westsae.' and means 'He said
+  that he lived in the northern land near the Western Sea.')
+
+Braille:
+
+      
+
+           
+          
+         
+         
+          
+       
+
+         
+
+            
+         
+          
+          
+          
+         
+           
+         
+        
+
+  (The first couple of paragraphs of "A Christmas Carol" by Dickens)
+
+Compact font selection example text:
+
+  ABCDEFGHIJKLMNOPQRSTUVWXYZ /0123456789
+  abcdefghijklmnopqrstuvwxyz lb(c)u`AAE"OThssé"o"y
+  –—‘“”"+o…‰TMoeS"YzEUR ΑΒΓΔΩαβγδω АБВГДабвгд
+  ∈R∧∪≡∞ ↑↗ ┐┼╔╘♀ fiB"W
+
+Greetings in various languages:
+
+  Hello world, Καλημρα κσμε, コンニチハ
+
+Box drawing alignment tests:                                          █
+                                                                      ▉
+  ╔══╦══╗  ┌──┬──┐  ╭──┬──╮  ╭──┬──╮  ┏━━┳━━┓  ┎┒┏┑      ┏┯┓ ┌┰┐    ▊ ╱╲╱╲╳╳╳
+  ║┌─╨─┐║  │╔═╧═╗│  │╒═╪═╕│  │╓─╁─╖│  ┃┌─╂─┐┃  ┗╃╄┙  ┼╋┠┼┨ ┝╋┥    ▋ ╲╱╲╱╳╳╳
+  ║│╲ ╱│║  │║   ║│  ││ │ ││  │║ ┃ ║│  ┃│  │┃  ┍╅╆┓      ┗┷┛ └┸┘    ▌ ╱╲╱╲╳╳╳
+  ╠╡ ╳ ╞╣  ├╢   ╟┤  ├┼─┼─┼┤  ├╫─╂─╫┤  ┣┿┼┿┫  ┕┛┖┚     ┌┄┄┐  ┏┅┅┓ ┋ ▍ ╲╱╲╱╳╳╳
+  ║│╱ ╲│║  │║   ║│  ││ │ ││  │║ ┃ ║│  ┃│  │┃  ▓▓██ ┊  ┆    ┇ ┋ ▎
+  ║└─╥─┘║  │╚═╤═╝│  │╘═╪═╛│  │╙─╀─╜│  ┃└─╂─┘┃  ▓▓██ ┊  ┆    ┇ ┋ ▏
+  ╚══╩══╝  └──┴──┘  ╰──┴──╯  ╰──┴──╯  ┗━━┻━━┛  ▄   └┘  ┗┛ ┋  ▁▂▃▄▅▆▇█
+                                               ▄

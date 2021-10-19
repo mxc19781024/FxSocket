@@ -1,0 +1,70 @@
+﻿.CMapLayerWidget
+{
+	background-color:#333333;
+}
+
+CMapLayerWidget #toTopBtn
+{
+	background-image:url(:/Resources/images_map_layer/top.png);
+}
+
+CMapLayerWidget #toTopBtn:hover
+{
+	background-image: url(:/Resources/images_map_layer/top_h.png);
+}
+CMapLayerWidget #toTopBtn:pressed
+{
+	background-image: url(:/Resources/images_map_layer/top_press.png);
+}
+
+CMapLayerWidget #toBottomBtn
+{
+	background-image: url(:/Resources/images_map_layer/bottom.png);
+}
+CMapLayerWidget #toBottomBtn:hover
+{
+	background-image: url(:/Resources/images_map_layer/bottom_h.png);
+}
+CMapLayerWidget #toBottomBtn:pressed
+{
+	background-image: url(:/Resources/images_map_layer/bottom_press.png);
+}
+
+CMapLayerWidget #upBtn
+{
+	background-image: url(:/Resources/images_map_layer/up.png);
+}
+CMapLayerWidget #upBtn:hover
+{
+	background-image: url(:/Resources/images_map_layer/up_h.png);
+}
+CMapLayerWidget #upBtn:pressed
+{
+	background-image: url(:/Resources/images_map_layer/up_press.png);
+}
+
+CMapLayerWidget #downBtn
+{
+	background-image: url(:/Resources/images_map_layer/down.png);
+}
+CMapLayerWidget #downBtn:hover
+{
+	background-image: url(:/Resources/images_map_layer/down_h.png);
+}
+CMapLayerWidget #downBtn:pressed
+{
+	background-image: url(:/Resources/images_map_layer/down_press.png);
+}
+
+CMapLayerWidget #delBtn
+{
+	background-image: url(:/Resources/images_map_layer/del.png);
+}
+CMapLayerWidget #delBtn:hover
+{
+	background-image: url(:/Resources/images_map_layer/del_h.png);
+}
+CMapLayerWidget #delBtn:pressed
+{
+	background-image: url(:/Resources/images_map_layer/del_press.png);
+}

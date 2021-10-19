@@ -1,0 +1,292 @@
+﻿QWidget
+{
+	color: white;
+	font-family:"微软雅黑";
+	font-size:13px;
+}
+
+QScrollBar:vertical
+{
+	background: transparent;
+	width: 8px;
+	margin: 8px 0px 8px 0px;
+	border-image:url(%1/images/ScrollBar/groove_nor.png);
+}
+
+QScrollBar::handle:vertical
+{
+	background: transparent;
+	min-height: 20px;
+	margin:2;
+	border-image:url(%1/images/ScrollBar/handle_nor.png);
+}
+
+QScrollBar::handle:vertical:hover
+{
+	border-image:url(%1/images/ScrollBar/handle_hover.png);
+}
+
+QScrollBar::handle:vertical:pressed
+{
+	border-image:url(%1/images/ScrollBar/handle_pressed.png);
+}
+
+QScrollBar::add-line:vertical
+{
+	background: transparent;
+	height: 8px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+	border-image:url(%1/images/ScrollBar/downarrow_nor.png);
+}
+
+QScrollBar::add-line:vertical:hover
+{
+	border-image:url(%1/images/ScrollBar/downarrow_hover.png);
+}
+
+QScrollBar::add-line:vertical:pressed
+{
+	border-image:url(%1/images/ScrollBar/downarrow_pressed.png);
+}
+
+QScrollBar::sub-line:vertical
+{
+	background: transparent;
+	height: 8px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+	border-image:url(%1/images/ScrollBar/uparrow_nor.png);
+}
+
+QScrollBar::sub-line:vertical:hover
+{
+	border-image:url(%1/images/ScrollBar/uparrow_hover.png);
+}
+
+QScrollBar::sub-line:vertical:pressed
+{
+	border-image:url(%1/images/ScrollBar/uparrow_pressed.png);
+}
+
+QScrollBar:horizontal
+{
+	background: transparent;
+	height: 8px;
+	margin: 0px 8px 0px 8px;
+	border-image:url(%1/images/ScrollBar/groove_nor.png);
+}
+
+QScrollBar::handle:horizontal
+{
+	background: transparent;
+	min-width: 20px;
+	margin:2;
+	border-image:url(%1/images/ScrollBar/handle_nor.png);
+}
+
+QScrollBar::handle:horizontal:hover
+{
+	border-image:url(%1/images/ScrollBar/handle_hover.png);
+}
+
+QScrollBar::handle:horizontal:pressed
+{
+	border-image:url(%1/images/ScrollBar/handle_pressed.png);
+}
+
+QScrollBar::add-line:horizontal
+{
+	background: transparent;
+	width: 8px;
+	subcontrol-position: right;
+	subcontrol-origin: margin;
+	border-image:url(%1/images/ScrollBar/rightarrow_nor.png);
+}
+
+QScrollBar::add-line:horizontal:hover
+{
+	border-image:url(%1/images/ScrollBar/rightarrow_hover.png);
+}
+
+QScrollBar::add-line:horizontal:pressed
+{
+	border-image:url(%1/images/ScrollBar/rightarrow_pressed.png);
+}
+
+QScrollBar::sub-line:horizontal
+{
+	background: transparent;
+	width: 8px;
+	subcontrol-position: left;
+	subcontrol-origin: margin;
+	border-image:url(%1/images/ScrollBar/leftarrow_nor.png);
+}
+
+QScrollBar::sub-line:horizontal:hover
+{
+	border-image:url(%1/images/ScrollBar/leftarrow_hover.png);
+}
+
+QScrollBar::sub-line:horizontal:pressed
+{
+	border-image:url(%1/images/ScrollBar/leftarrow_pressed.png);
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical,
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal
+{
+	background: transparent;
+}
+
+#NodeWidget
+{
+	background:darkgray;
+}
+
+NodeWidget #frame
+{
+	background: transparent;
+	border-image:url(%1/images/window_open.png);
+}
+
+NodeWidget #label_tile
+{
+	color: #cf8361;
+    font-size: 13px;
+}
+
+NodeWidget #close
+{
+	background: transparent;
+	border-image:url(%1/images/close_nor.png);
+}
+
+NodeWidget #close:hover
+{
+	border-image:url(%1/images/close_hover.png);
+}
+
+NodeWidget #close:pressed
+{
+	border-image:url(%1/images/close_pressed.png);
+}
+
+QGraphicsView
+{
+	background:transparent;
+}
+
+QHeaderView
+{
+	min-height:32px;
+	margin-bottom:6px;
+	background:transparent;
+}
+
+QHeaderView::section
+{
+	font-size:13px;
+    background-color: transparent;
+	padding:1 0 6 10;
+	border-image:url(%1/images/TreeView/header.png);
+	border-width:6 70 1 6;
+}
+
+QTreeView
+{
+	font-size:12px;
+	border-image:url(%1/images/TreeView/bg.png);
+	border-width:6 7 7 0;
+	padding-right:-6px;
+	selection-color:white;
+	selection-background-color:transparent;
+	show-decoration-selected: 1;
+	alternate-background-color: #071b27;
+}
+
+QTreeView::branch
+{
+	background: transparent;
+}
+
+QTreeView::branch:has-children
+{
+	margin-right:-8px;
+	padding-left:8px;
+	image:url(%1/images/TreeView/category_nor.png);
+	border-image:url(%1/images/TreeView/branch_bg_nor.png)1 5 1 5;
+	border-width:1 0 1 5;
+}
+
+QTreeView::branch:has-children:hover
+{
+	border-image:url(%1/images/TreeView/branch_bg_hover.png)1 5 1 5;
+}
+
+QTreeView::branch:has-children:selected
+{
+	border-image:url(%1/images/TreeView/branch_bg_pass on.png)1 5 1 5;
+}
+
+QTreeView::branch:!has-children:adjoins-item:has-siblings
+{	
+	image:none;
+	border-image:url(%1/images/TreeView/branch_more.png);
+}
+
+QTreeView::branch:!has-children:adjoins-item:!has-siblings
+{	
+	image:none;
+	border-image:url(%1/images/TreeView/branch_end.png);
+}
+
+QTreeView::item:has-children
+{
+	padding-left:12px;
+	padding-right:9px;
+	margin-left:8px;
+	border-image:url(%1/images/TreeView/branch_bg_nor.png)1 5 1 5;
+	border-width:1 5 1 0;
+}
+
+QTreeView::item:has-children:hover
+{
+	border-image:url(%1/images/TreeView/branch_bg_hover.png)1 5 1 5;
+}
+
+QTreeView::item:has-children:selected
+{
+	border-image:url(%1/images/TreeView/branch_bg_pass on.png)1 5 1 5;
+}
+
+QTreeView::item:!has-children
+{
+	padding-left:6px;
+	border-image:none;
+	border-width:0;
+}
+
+QTreeView::item:!has-children:hover
+{
+	background:rgb(18, 94, 92);
+}
+
+QTreeView::item:!has-children:selected
+{
+	background:#113e5c;
+}
+
+QTreeView::item:has-children:closed
+{
+	image-position:center right;
+	image:url(%1/images/TreeView/branch_close.png);
+}
+
+QTreeView::item:has-children:open
+{
+	image-position:center right;
+	image:url(%1/images/TreeView/branch_open.png);
+}

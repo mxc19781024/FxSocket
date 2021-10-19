@@ -1,0 +1,115 @@
+﻿/*CEquipmentInfoWidget #frame_3
+{
+	border-image: url(":/img/resrc/images/beijing.png"); 
+}
+ CEquipmentAttibutes begin */
+
+CEquipmentAttibutes #zidan_logo
+{
+	border-image: url(:/img/resrc/images/roctet.png);
+}
+CEquipmentAttibutes #zidan_number
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentAttibutes #label_danyao
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentAttibutes #label_fa
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentAttibutes #zidan_progressBar
+{
+    border: 1px solid #132635;
+    max-height: 3px;
+    margin-top: 0px;
+    margin-right: 48px;
+}
+
+CEquipmentAttibutes #zidan_progressBar
+{
+    background: qlineargradient(x1:0,
+    y1: 0,
+    x2: 1,
+    y2: 0,
+    stop: 0 #0d182d,
+    stop: 1 #0d182d);
+    margin: 0px;
+}
+/* CEquipmentAttibutes end */
+/* CEquipmentSetting begin */
+CEquipmentSetting #label_sbwd
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentSetting #label_tmdata
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentSetting #label_ssd
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentSetting #label_tmimage
+{
+	border-image: url(:/img/resrc/images/tem.png);
+}
+CEquipmentSetting #label_sbdl
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentSetting #label_btdata
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentSetting #label_pr
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentSetting #label_btimage
+{
+	border-image: url(:/img/resrc/images/buttry.png);
+}
+CEquipmentSetting #label_sbyl
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentSetting #label_prdata
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentSetting #label_mpa
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei";
+	font-size:13px;
+}
+CEquipmentSetting #label_primage
+{
+	border-image: url(:/img/resrc/images/press.png);
+}
+/* CEquipmentSetting end */

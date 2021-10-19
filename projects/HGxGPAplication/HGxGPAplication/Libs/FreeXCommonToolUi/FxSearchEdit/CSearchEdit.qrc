@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/images_searchedit">
+        <file>Resources/images_searchedit/search.png</file>
+        <file>Resources/images_searchedit/bg.png</file>
+        <file>Resources/images_searchedit/bg_h.png</file>
+        <file>Resources/images_searchedit/input_box.png</file>
+        <file>Resources/images_searchedit/input_box_click.png</file>
+        <file>Resources/images_searchedit/input_box_hover.png</file>
+        <file>Resources/images_searchedit/input.png</file>
+        <file>Resources/images_searchedit/input_hover.png</file>
+    </qresource>
+</RCC>
